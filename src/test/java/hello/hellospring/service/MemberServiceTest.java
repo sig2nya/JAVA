@@ -11,8 +11,7 @@ import static org.assertj.core.api.Assertions.*;
 
 class MemberServiceTest {
 
-    MemberService memberService = new MemberService();
-
+    MemberService memberService;
 
     @Test
     void 회원가입() {
