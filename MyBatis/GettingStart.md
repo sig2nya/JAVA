@@ -1,6 +1,5 @@
 ##XML에서 SqlSessionFactory 빌드하기
 
-
 모든 마이바티스 애플리케이션은 SqlSessionFactory 인스턴스를 사용한다.
 SqlSessionFactory인스턴스는 SqlSessionFactoryBuilder를 사용하여 만들수 있다. 
 SqlSessionFactoryBuilder는 XML설정파일에서 SqlSessionFactory인스턴스를 빌드할 수 있다.

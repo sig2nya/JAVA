@@ -16,6 +16,10 @@ public class ApplyService {
         return myMapper.selectGridAll(crs_id, username);
     }
 
+    public TextVO selectTextAll(String crs_id){
+        return myMapper.selectTextAll(crs_id);
+    }
+
     public TableVO selectTableAll(String crs_id){
         return myMapper.selectTableAll(crs_id);
     }
