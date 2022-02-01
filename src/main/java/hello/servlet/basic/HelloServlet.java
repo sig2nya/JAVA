@@ -22,6 +22,7 @@ public class HelloServlet extends HttpServlet {
         response.setContentType("text/plain");
         response.setCharacterEncoding("utf-8");
         response.getWriter().write("hello " + username);
-
     }
 }
+
+// name / urlPatterns는 중복이 안되게 할 것
