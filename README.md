@@ -129,7 +129,7 @@
 </mapper>
 ```
 ***
-##### 2. Repository  구성
+#### 2. Repository  구성
 ```java
 public class ApplInfoVO // Insert(수강신청)
     private int appSeq;
@@ -211,7 +211,7 @@ public class ValidationVO // For Validation
 ```
 
 ***
-####3.Service의 구성
+#### 3.Service의 구성
 ```java
 public class ApplyService {
     @Autowired
@@ -243,7 +243,7 @@ public class ApplyService {
 }
 ```
 ***
-####4.Controller의 구성
+#### 4.Controller의 구성
 ```java
 @Controller
 public class CourseController {
@@ -319,7 +319,7 @@ public class CourseController {
 
 }
 ```
-####5. JSP 구성 
+#### 5. JSP 구성 
 : JSP에서는 주로 AJAX를 이용하여 Controller 요청을 하였습니다. jqGrid의 페이지네이션,
 beforeSelectRow 속성을 통하여 신청 차수에 대해 선택이 불가능, onSelectAll 속성을 통하여 
 Check Box All 접근 차단, ValidationVO를 통한 View의 Validation, Controller의 Validation 등
@@ -329,9 +329,9 @@ Check Box All 접근 차단, ValidationVO를 통한 View의 Validation, Controll
 ![img_2.png](./company/img_2.png)
 ![img_3.png](./company/img_3.png)
 ***
-#최종 결과물
+# 최종 결과물
 ![img_5.png](./company/img_4.png)
-#Validation
+# Validation
 ![img_6.png](./company/img_5.png)
 ***
 
