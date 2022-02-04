@@ -329,9 +329,9 @@ Check Box All 접근 차단, ValidationVO를 통한 View의 Validation, Controll
 ![img_2.png](./company/img_2.png)
 ![img_3.png](./company/img_3.png)
 ***
-# 최종 결과물
+# <span style = "color:#2D3748; background-color:#fff5b1;">최종 결과물</span>
 ![img_5.png](./company/img_4.png)
-# Validation
+# <span style = "color:#2D3748; background-color:#fff5b1;">Validation</span>
 ![img_6.png](./company/img_5.png)
 ***
 
