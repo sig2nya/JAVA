@@ -324,15 +324,15 @@ public class CourseController {
 beforeSelectRow 속성을 통하여 신청 차수에 대해 선택이 불가능, onSelectAll 속성을 통하여 
 Check Box All 접근 차단, ValidationVO를 통한 View의 Validation, Controller의 Validation 등
 유효값 검증에 힘썼습니다. 따라서, 위에 언급된 '수강 신청에 대한 요구사항'을 충족할 수 있었습니다.
-![img.png](img.png)
-![img_1.png](img_1.png)
-![img_2.png](img_2.png)
-![img_3.png](img_3.png)
+![img.png](./company/img.png)
+![img_1.png](./company/img_1.png)
+![img_2.png](./company/img_2.png)
+![img_3.png](./company/img_3.png)
 ***
 #최종 결과물
-![img_5.png](img_5.png)
+![img_5.png](./company/img_4.png)
 #Validation
-![img_6.png](img_6.png)
+![img_6.png](./company/img_5.png)
 ***
 
 3.이번 프로젝트 간 배운 점
