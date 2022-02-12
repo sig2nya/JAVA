@@ -49,6 +49,7 @@ Check Box All 접근 차단, ValidationVO를 통한 View의 Validation, Controll
 ![img_5.png](./company/img_4.png)
 # <span style = "color:#2D3748; background-color:#fff5b1;">Validation</span>
 ![img_6.png](./company/img_5.png)
+#### 여담이지만, Insert가 수행되고 이미 수강신청한 로우에 대해 비활성화, 음영처리, '신청완료' 상태 처리, AllCheckBox Disable 등등 UserFriendly한 기능도 구현했었다.(물론 Google신이 해주심)
 ***
 3.이번 프로젝트 간 배운 점
 =====================
