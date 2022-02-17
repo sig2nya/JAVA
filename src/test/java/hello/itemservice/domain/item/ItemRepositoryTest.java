@@ -12,6 +12,7 @@ public class ItemRepositoryTest {
     void afterEach() {
         itemRepository.clearStore();
     }
+
     @Test
     void save() {
         //given
@@ -22,6 +23,7 @@ public class ItemRepositoryTest {
         Item findItem = itemRepository.findById(item.getId());
         Assertions.assertThat(findItem).isEqualTo(savedItem);
     }
+
     @Test
     void findAll() {
         //given

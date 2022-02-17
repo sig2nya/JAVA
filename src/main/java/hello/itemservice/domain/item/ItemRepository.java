@@ -9,7 +9,8 @@ import java.util.Map;
 
 @Repository // @Repository를 이용하면 @Component도 포함되어 있기 때문에, ComponentScan의 대상이 된다.
 public class ItemRepository {
-    private static final Map<Long, Item> store = new HashMap<>(); // Thread에 대해 ConcurrentHashMap을 이용하는 것이 좋다.
+    private static final Map<Long, Item> store = new HashMap<>();
+    // Thread 처리를 위하여 ConcurrentHashMap을 이용하는 것이 좋다.(동시 접근 시에 값의 에러 발생가능)
     private static long sequence = 0L;
 
     public Item save(Item item){
