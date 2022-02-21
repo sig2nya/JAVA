@@ -7,6 +7,17 @@ import java.util.Scanner;
 public class Virus_2606 {
 	static int[][] arr;
 	static boolean[] checked;
+	public static void DFS(int V){
+	       check[V] = true;
+	       System.out.println(V + " ");
+	       for(int i = 1; i < arr.length; i++){
+		   if(arr[V][i] == 1 && !check[i]){
+		       result++;
+		       DFS(i);
+		}
+	   }
+	}
+	
 	public static void BFS(int V) {
 		Queue<Integer> q = new LinkedList<Integer>();
 		q.offer(V);
