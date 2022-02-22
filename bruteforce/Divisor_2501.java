@@ -23,3 +23,5 @@ public class Divisor_2501 {
 
     }
 }
+
+// for test
