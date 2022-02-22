@@ -5,46 +5,48 @@ import java.util.Queue;
 import java.util.Scanner;
 
 public class DFS_BFS_1260 {
-	static int arr[][];
-	static boolean checked[];
-	
-	public static void DFS(int V) {
-		checked[V] = true;
-		System.out.print(V + 1 + " ");
-		for(int i = 0; i < arr[V].length; i++) {
-			if(!checked[i] && arr[V][i] == 1) DFS(i);
+	public static int[][] arr;
+	public static boolean[] check;
+	public int V;
+
+	public static void DFS(int V){
+		check[V] = true;
+		System.out.print(V + " ");
+		for(int i = 1; i < arr[V].length; i++){
+			if(arr[V][i] == 1 && !check[i]){
+				DFS(i);
+			}
 		}
 	}
-	
-	// BFS는 QUEUE를 이용하여 구현
-	public static void BFS(int V) {
-		Queue<Integer> q = new LinkedList<Integer>(); // 자바의 QUEUE는 LinkedList 이용
-		q.offer(V);
-		checked[V] = true;
-		while(!q.isEmpty()) {
-			int tmp = q.poll();
-			System.out.print(tmp + 1 + " ");
-			for(int i = 0; i < arr[tmp].length; i++) {
-				if(checked[i] == false && arr[tmp][i] == 1) {
-					q.offer(i);
-					checked[i] = true;
+
+	public static void BFS(int V){ // 재귀로 구현하지 않는다.
+		Queue<Integer> queue = new LinkedList<Integer>();
+		queue.offer(V); // 큐에 값 넣기.
+		check[V] = true;
+		while(!queue.isEmpty()){
+			int tmp = queue.poll(); // 큐에 담긴 값 꺼내기.
+			System.out.print(tmp + " ");
+			for(int i = 1; i < arr[V].length; i++){
+				if(arr[tmp][i] == 1 && !check[i]){
+					queue.offer(i);
+					check[i] = true;
 				}
 			}
 		}
 	}
-	
+
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		int N = sc.nextInt(), M = sc.nextInt(), V = sc.nextInt() - 1;
-		arr = new int[N][N]; checked = new boolean[N];
-		for(int i = 0; i < M; i++) {
-			int a = sc.nextInt(), b = sc.nextInt();
-			arr[a - 1][b - 1] = arr[b - 1][a - 1] = 1;
+		int V = sc.nextInt();
+		arr = new int[V+1][V+1];
+		check = new boolean[V+1];
+		for(int i = 1; i <= V; i++){
+			int a = sc.nextInt(); int b = sc.nextInt();
+			arr[a][b] = arr[b][a] = 1;
 		}
-		DFS(V);
+		DFS(1);
+		for(int i = 0; i < check.length; i++) check[i] = false;
 		System.out.println();
-		for(int i = 0; i < checked.length; i++) checked[i] = false;
-		BFS(V);
+		BFS(1);
 	}
-
 }
