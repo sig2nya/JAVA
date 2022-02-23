@@ -45,7 +45,6 @@ public class OrganicCabbage_1012 {
                     }
                 }
             }
-
             System.out.println(count);
         }
     }

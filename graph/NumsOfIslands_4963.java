@@ -8,19 +8,18 @@ import java.util.StringTokenizer;
 public class NumsOfIslands_4963 {
     public static int arr[][];
     public static boolean check[][];
-    public static int dx[] = {1, -1, 0, 0};
-    public static int dy[] = {0, 0, 1, -1};
+    public static int dx[] = {1, -1, 0, 0, 1, -1, 1, -1};
+    public static int dy[] = {1, -1, 1, -1, -1, 1, 0, 0};
     public static int a, b;
     public static int count = 0;
 
     public static void DFS(int x, int y){
         check[x][y] = true;
-        for(int i = 0; i < 4; i++){
+        for(int i = 0; i < 8; i++){
             int cx = x + dx[i];
             int cy = y + dy[i];
             if(cx >= 0 && cy >= 0 && cx < a && cy < b){
                 if(arr[cx][cy] == 1 && !check[cx][cy]) {
-                    count++;
                     DFS(cx, cy);
                 }
             }
@@ -42,7 +41,10 @@ public class NumsOfIslands_4963 {
             }
             for(int i = 0; i < a; i++){
                 for(int j = 0; j < b; j++){
+                    if(arr[i][j] == 1 && !check[i][j]) {
                         DFS(i, j);
+                        count++;
+                    }
                 }
             }
             System.out.println(count);
