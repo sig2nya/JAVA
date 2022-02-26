@@ -19,7 +19,7 @@ public class 크레인_인형뽑기_게임 {
 
         int moves[] = {1,5,3,5,1,2,1,4};
         // [j][moves[i] - 1]
-        // 4 3 1 1 3 2 * 3
+        // 4 3 1 1 3 2 * 4
         int cnt = 0;
         for(int i = 0; i < moves.length; i++){
             for(int j = 0; j < board.length; j++){
@@ -27,12 +27,15 @@ public class 크레인_인형뽑기_게임 {
                 stack.push(board[j][moves[i] - 1]);
                 board[j][moves[i] - 1] = 0;
                 if((int)stack.peek() == 0) stack.pop();
+                if(stack.size() >= 2 && stack.peek() == stack.get(stack.size() - 2)){
+                    stack.pop(); stack.pop();
+                    cnt += 2;
+                }
                 break;
             }
             // System.out.println(stack.peek());
         }
-        while(!stack.isEmpty()){
-            System.out.println(stack.pop());
-        }
+
+        System.out.println(cnt);
     }
 }
