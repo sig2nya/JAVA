@@ -23,11 +23,12 @@ public class 키패드누르기 {
                 if(hands.equals("right")) {
                     right = Integer.toString(nums[i]);
                     answer += "R";
-                } else {
+                } else if(hands.equals("left")){
                     left = Integer.toString(nums[i]);
                     answer += "L";
                 }
             }
+            if(i == 8) System.out.println(left + " " + right);
         }
         System.out.println(answer);
     }
