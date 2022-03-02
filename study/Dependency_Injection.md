@@ -33,4 +33,7 @@ a.setB(b); // Dependency Injection. 어떤 객체에 대한 필요한 부품을 
   </bean>
 // XML의 DI 설정 하지만, 의존성이 바뀌어야하는 상황을 고려하면 그때마다 설정 파일을 수정해야한다.
 // 과거에는 이것만으로도 개발자는 행복해했다. 하지만... 객체가 바뀔 때, 설정도 바뀌는 방법을 찾고싶어했다.
+
+  @Autowired
+  Private Exam exam; // <property name="b" ref="b"/>
 ```
