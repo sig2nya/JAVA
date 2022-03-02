@@ -17,9 +17,9 @@ class A{
     this.b = b;
   }
 }
-
 B b = new B(); // Dependency
 A a = new A();
+
 a.setB(b); // Dependency Injection. 어떤 객체에 대한 필요한 부품을 갈아 끼우기 유연하다. 원하는대로 조립이 가능해진다. 프로그램이 더 유연해진다.
 // 조립을 할 때, Setter와 Constructor를 통하여 Injection이 가능하다.
 ```
