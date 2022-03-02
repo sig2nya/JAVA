@@ -25,6 +25,7 @@ a.setB(b); // Dependency Injection. 어떤 객체에 대한 필요한 부품을 
 ```
 
 <h3>2. @Autowired</h3>
+
 ```xml
 <bean id="b" class="data.B2"/>
   <bean id="console" class="service.S">
