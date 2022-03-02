@@ -1,6 +1,7 @@
 Dependency Injection(DI)와 @Autowired
 =====================================
 <h3>1. 의존성 주입</h3>
+
 ```java
 class A{
   private B b; // A가 B를 가짐. B를 부품으로써 가진다. 이 부품을 Dependency라고 한다. A는 B에 종속된다. 일체형이다. 즉, 결합도가 높아진다.
