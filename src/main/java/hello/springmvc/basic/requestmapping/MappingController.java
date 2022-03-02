@@ -14,6 +14,12 @@ public class MappingController {
         return "ok";
     }
 
+    @RequestMapping(value = "/mapping-get-v1", method = RequestMethod.GET)
+    public String mappingGetV1() {
+        log.info("mappingGetV1");
+        return "ok";
+    }
+
     @GetMapping("/mapping-get-v2")
     public String mappingGetV2(){
         log.info("mapping-get-ve");
