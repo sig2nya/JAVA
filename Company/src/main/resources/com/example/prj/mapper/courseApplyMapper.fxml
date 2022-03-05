@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace = "com.example.prj.serveSocket.HMS.repository.mapper.CourseApplyMapper">
+    <select id = "selectTableAll" resultType = "TableVO" parameterType = "String">
+        select crs_id, crs_nm,
+        (select C.common_code_name from common_code C where C.class_code = 'bhr_ed_crs_status' and C.common_code = M.crs_status) as crs_status,
+        (select C.common_code_name from common_code C where C.class_code = 'bhr_ed_fld' and C.common_code = M.ed_fld) as ed_fld,
+        ed_site,
+        (select C.common_code_name from common_code C where C.class_code = 'bhr_ed_type' and C.common_code = M.ed_type) as ed_type,
+        (select C.common_code_name from common_code C where C.class_code = 'bhr_ed_io' and C.common_code = M.io) as io,
+        app_from,
+        app_to,
+        from hr_ed_crs_m M
+        where M.crs_id = #{ crs_id }
+    </select>
+
+    <select id = "selectGridAll" resultType = "GridVO" parameterType = "String">
+        select D.seq,
+                case D.close_yn
+                    when 'Y' then '폐강'
+                    when 'N' then '수강가능'
+                end as close_yn
+                , loc
+                , from_dt
+                , ed_time
+                , tcr_nm
+                , max_people
+                , (
+                    select(
+                            count(case when A.app_status = 'A' then 1 end))
+                            from hr_ed_app A
+                            where A.crs_id = D.crs_id
+                            and A.seq = D.seq
+                    ) applied_people
+                from hr_ed_crs_d D
+                where crs_id = #{ crs_id }
+                and D.close_yn = 'N'
+                order by from_dt asc
+    </select>
+
+    <select id = "selectTextAll" resultType = "TextVO" parameterType = "String">
+        select ed_trgt, ed_purpose, ed_cont
+        from hr_ed_crs_m
+        where crs_id = #{ crs_id }
+    </select>
+
+    <select id = "validationIns" resultType = "int" parameterType = "ValidationVO">
+        select count(*)
+        from hr_ed_app ap
+        where ap.crs_id = #{ crsId }
+        and ap.emp_id = (select id from tb_user where usr_name = #{ userName })
+        and ap.app_status = 'A'
+        and seq = #{ seq}
+    </select>
+
+    <select id = "validation" resultType = "int" parameterType ="String">
+        select seq as validationGrid
+        from hr_ed_app
+        where app_status = 'A'
+        and crs_id = #{ crs_id }
+        and emp_id = (
+                        select id
+                        from tb_user
+                        where usr_name = #{ username }
+                      )
+    </select>
+
+    <insert id = "insertApplyInfo" parameterType = "String">
+        insert into hr_ed_app(
+                                app_seq
+                                , crs_id
+                                , app_status
+                                , seq
+                                , emp_id
+                                , cancel
+                                , crt_dt
+                                , updt_dt
+                            )
+        values(
+                (select ifnull(max(app_seq), 0) from hr_ed_app sub) + 1,
+                'A',
+                #{ crs_id },
+                #{ seq },
+                #{ user_id },
+                'N',
+                #{ user_id },
+                date_format(now(), '%Y%m%d%H%i%s'),
+                date_format(now(), '%Y%m%d%H%i%s')
+        )
+    </insert>
+</mapper>
