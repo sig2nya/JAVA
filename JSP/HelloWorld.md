@@ -1,5 +1,5 @@
 ```java
-@WebServlet("/hello") // 해당 클래스가 WebServlet인 것을 명시
+@WebServlet("/hello") // 해당 클래스가 WebServlet인 것을 명시(Container에게 알랴줌)
 public class HelloWorld extends HttpServlet{
   private static final long serialVersionUID = 1L;
   
