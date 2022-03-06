@@ -1,5 +1,5 @@
 ```java
-@WebServlet(urlPatterns = { "/hello" })
+@WebServlet("/hello") // 해당 클래스가 WebServlet인 것을 명시
 public class HelloWorld extends HttpServlet{
   private static final long serialVersionUID = 1L;
   
