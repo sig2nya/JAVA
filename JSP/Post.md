@@ -1,3 +1,5 @@
+POST Request
+============
 ```html
 <form action="/jsp/members/save.jsp" method="post">
  username: <input type="text" name="username" />
