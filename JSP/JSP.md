@@ -25,6 +25,6 @@ Tag Library
 JSTL
 ====
 * 선언 : <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %> -> core 라이브러리
-* <c:out> : <c:out value="${'Welcome to javaTpoint'}"/>  
+* <c:out> : <c:out value="${'Welcome to My Git'}"/>  
 * <c:if> : <c:if test="${msg == 'user1'}" var="result"> test result:${result} </c:if>
 * <c:forEach> : <c:forEach var="m" items="${memers}" begin="0" varStatus="status" end="5">index:${status.index} email:${m.name}</c:forEach>
