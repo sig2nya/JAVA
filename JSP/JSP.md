@@ -15,10 +15,18 @@ JSP
 Tag Library
 ===========
 * <%@ taglib tagdir = "/WEB-INF/tags" prefix = "m" %>
-* * <h2><m:printDate/></h2>
 
 스크립트 요소
 ==========
 * <!% %> : 선언을 위한 태그. 멤버 변수나 메서드 선언이 필요하다면 사용 가능하지만, 권장하지 않는다.
 * <%= %> : Expression 태그. 웹 브라우저를 통해 클라이언트에 전달될 자바 표현식을 포함한다. EL로 대체 가능하다.
 * <% %> : 스크립트릿 태그. 모든 자바 코드의 사용이 가능하다.
+* EL Tag - ${ } : 좀 더 간편한 출력을 위한 태그.
+
+JSTL
+====
+* 선언 : <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %> -> core 라이브러리
+* <c:set> : <c:set var="num" value="100"/>
+* <c:out> : <c:out value="Welcome to My Git"/>  
+* <c:if> : <c:if test="${msg == 'user1'}" var="result"> test result:${result} </c:if>
+* <c:forEach> : <c:forEach var="m" begin="0" end="5">index:${m}</c:forEach>
