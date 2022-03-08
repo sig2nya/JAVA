@@ -54,7 +54,7 @@ public class Stack_10828 {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int T = Integer.parseInt(br.readLine());
         for(int i = 0; i < T; i++){
-            String [] str = new String[2];
+            String [] str;
             str = br.readLine().split(" ");
             if(str.length == 2){
                 stack.push(Integer.parseInt(str[1]));
