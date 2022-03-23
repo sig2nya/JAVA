@@ -22,10 +22,10 @@ public class MakingPaper_2630 {
             white++;
             return;
         }
-        solution(xstart, (xstart + xend) / 2, ystart, (ystart + yend) / 2);
-        solution((xstart + xend) / 2, xend, ystart, (ystart + yend) / 2);
-        solution(xstart, (xstart + xend) / 2, (ystart + yend) / 2, yend);
-        solution((xstart + xend) / 2, xend, (ystart + yend) / 2, yend);
+        solution(xstart, (xstart + xend) / 2, ystart, (ystart + yend) / 2); // 0 4 0 4
+        solution((xstart + xend) / 2, xend, ystart, (ystart + yend) / 2); // 4 8 0 4
+        solution(xstart, (xstart + xend) / 2, (ystart + yend) / 2, yend); // 0 4 4 8
+        solution((xstart + xend) / 2, xend, (ystart + yend) / 2, yend); // 4 8 4 8
     }
 
     public static void main(String[] args) {
