@@ -2,6 +2,8 @@ package 누적합;
 
 import java.util.Scanner;
 
+// 맞왜틀
+
 public class 구간합구하기4_11659 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
