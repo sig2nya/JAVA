@@ -12,12 +12,12 @@ public class 덩치_7568 {
         }
 
         for(int i = 0; i < N; i++){
-            int cnt = 0;
+            int cnt = 1;
             for(int j = 0; j < N; j++){
-                if(arr[i][0] > arr[j][0] && arr[i][1] > arr[j][1]) continue;
-                else if(arr[i][0] > arr[j][0] && arr[i][1] < arr[j][1]) continue;
-                else if(arr[i][0] < arr[j][0] && arr[i][1] > arr[j][1]) continue;
-                else cnt++;
+                if(arr[i][0] < arr[j][0] && arr[i][1] < arr[j][1]) cnt++;
+                else{
+                    continue;
+                }
             }
             System.out.print(cnt + " ");
         }
