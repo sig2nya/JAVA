@@ -8,7 +8,7 @@ public class Test {
     }
     public static int solution(int n){
         int answer = 0;
-        int ncnt = check(Integer.toBinaryString(n)); int cnt = 0;
+        int ncnt = check(Integer.toBinaryString(n));
         n++;
 
         while(true){
