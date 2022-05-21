@@ -1,2 +1,5 @@
-package com.service;public class ResourceInfoService {
+package com.service;
+
+public interface ResourceInfoService {
+
 }

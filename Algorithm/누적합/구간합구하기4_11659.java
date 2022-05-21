@@ -13,9 +13,12 @@ public class 구간합구하기4_11659 {
 
         /*for(int i = 0; i <= N; i++) System.out.println(arr[i]);*/
 
+        for(int i = 1; i <= N; i++) arr[i] = arr[i - 1] + sc.nextInt();
+    
         for(int i = 0; i < M; i++){
             int a = sc.nextInt(); int b = sc.nextInt();
             System.out.println(arr[b] - arr[a - 1]);
         }
     }
 }
+
