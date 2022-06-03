@@ -1,133 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="50976a8b-ed73-47a6-9c51-1102d72f4388" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/dp/설탕배달_2839.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test.java" beforeDir="false" />
+    <list default="true" id="82e3329e-71b8-4c45-8fed-79f14febc528" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/구현/별찍기3_2440.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/구현/세수_10817.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/소프티어_현대차/금고털이.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/이분탐색/숫자카드_10815.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/이분탐색/이진탐색.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Algorithm/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/.idea/uiDesigner.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Algorithm/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/Algorithm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/Algorithm.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/basicIO/APlusB2_2558.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/basicIO/APlusB2_2558.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/basicIO/AminusB.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/basicIO/AminusB.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/basicIO/AplusB.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/basicIO/AplusB.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/basicIO/MSLogo_5338.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/basicIO/MSLogo_5338.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/basicIO/새싹_25083.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/basicIO/새싹_25083.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/bruteforce/BlackJack_2798.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/bruteforce/BlackJack_2798.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/bruteforce/DisassembledSum_2231.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/bruteforce/DisassembledSum_2231.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/bruteforce/Divisor_2501.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/bruteforce/Divisor_2501.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/dataStructure/Queue_10845.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/dataStructure/Queue_10845.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/dataStructure/Stack_10828.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/dataStructure/Stack_10828.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/dataStructure/Zero_10773.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/dataStructure/Zero_10773.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/devideconquer/Chicken_TOP_N_11582.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/devideconquer/Chicken_TOP_N_11582.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/devideconquer/MakingPaper_2630.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/devideconquer/MakingPaper_2630.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/dp/Fibonacci_1003.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/dp/Fibonacci_1003.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/function/Hansu_1065.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/function/Hansu_1065.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/graph/ConnectedComponents_11724.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/graph/ConnectedComponents_11724.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/graph/DFS_BFS_1260.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/graph/DFS_BFS_1260.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/graph/NumsOfIslands_4963.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/graph/NumsOfIslands_4963.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/graph/OrganicCabbage_1012.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/graph/OrganicCabbage_1012.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/graph/Virus_2606.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/graph/Virus_2606.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/math/AVG_1546.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/math/AVG_1546.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/math/FindPrimeNums_1978.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/math/FindPrimeNums_1978.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/math/Maximum_2562.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/math/Maximum_2562.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/math/NumOfNum_2577.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/math/NumOfNum_2577.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/math/OXQuiz_8958.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/math/OXQuiz_8958.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/math/OvenClock_2525.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/math/OvenClock_2525.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/math/OverAvg_4344.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/math/OverAvg_4344.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/math/PrimeNums_2581.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/math/PrimeNums_2581.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/math/ProductsMatrix_2740.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/math/ProductsMatrix_2740.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/math/Remainer_3052.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/math/Remainer_3052.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/math/SnailWannaGoUp_2869.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/math/SnailWannaGoUp_2869.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/math/ThreeDice_2480.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/math/ThreeDice_2480.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/math/곱셈_1629.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/math/곱셈_1629.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/math/소인수분해_11653.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/math/소인수분해_11653.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/math/큰수_10757.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/math/큰수_10757.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/numtheory/LCM_1934.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/numtheory/LCM_1934.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/numtheory/Ring_3036.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/numtheory/Ring_3036.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/programmers/Lottery.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/programmers/Lottery.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/programmers/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/programmers/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/programmers/소수만들기.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/programmers/소수만들기.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/programmers/숫자문자열과영단어.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/programmers/숫자문자열과영단어.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/programmers/신고결과받기.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/programmers/신고결과받기.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/programmers/신규아이디추천.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/programmers/신규아이디추천.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/programmers/없는숫자더하기.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/programmers/없는숫자더하기.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/programmers/완주하지못한선수.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/programmers/완주하지못한선수.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/programmers/음양더하기.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/programmers/음양더하기.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/programmers/크레인_인형뽑기_게임.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/programmers/크레인_인형뽑기_게임.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/programmers/키패드누르기.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/programmers/키패드누르기.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/programmers/튜플.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/programmers/튜플.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/recursion/Cantour_4779.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/recursion/Cantour_4779.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/recursion/Factorial_10872.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/recursion/Factorial_10872.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/recursion/Fibonacci_10870.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/recursion/Fibonacci_10870.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/recursion/MakingStars10_2447.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/recursion/MakingStars10_2447.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/recursion/Multiple3_1769.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/recursion/Multiple3_1769.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/sort/QuickSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/sort/QuickSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/sort/Sorting_2751.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/sort/Sorting_2751.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/stack/STACK.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/stack/STACK.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/string/Ascii_11654.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/string/Ascii_11654.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/string/Bracket_9012.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/string/Bracket_9012.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/string/Changyoung_3028.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/string/Changyoung_3028.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/string/ContinuityofString_2675.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/string/ContinuityofString_2675.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/string/CountsOfAlpha_10808.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/string/CountsOfAlpha_10808.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/string/CroatiaAlpha_2941.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/string/CroatiaAlpha_2941.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/string/Dial_5622.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/string/Dial_5622.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/string/Equality_13985.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/string/Equality_13985.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/string/FindingAlpha_10809.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/string/FindingAlpha_10809.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/string/GroupWordsChecker_1316.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/string/GroupWordsChecker_1316.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/string/JAVAByteCode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/string/JAVAByteCode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/string/LengthOfWords_2743.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/string/LengthOfWords_2743.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/string/Marks_2754.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/string/Marks_2754.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/string/NumOfWords_1152.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/string/NumOfWords_1152.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/string/Onepiece_12780.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/string/Onepiece_12780.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/string/Palindrom_20944.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/string/Palindrom_20944.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/string/Plus_10953.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/string/Plus_10953.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/string/SHA_256_10930.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/string/SHA_256_10930.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/string/SangSu_2908.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/string/SangSu_2908.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/string/SortInside_1427.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/string/SortInside_1427.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/string/StudyingAlpha_1157.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/string/StudyingAlpha_1157.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/string/Studying_Words_1157.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/string/Studying_Words_1157.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/string/SumofNum_11720.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/string/SumofNum_11720.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/string/SunlinSong_21964.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/string/SunlinSong_21964.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/string/Ten_11721.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/string/Ten_11721.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/string/Warning_3029.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/string/Warning_3029.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/string/WhiteBlock_1100.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/string/WhiteBlock_1100.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/string/Youngil_20540.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/string/Youngil_20540.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/누적합/구간합구하기4_11659.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/누적합/구간합구하기4_11659.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/누적합/구간합구하기4_11659.java" beforeDir="false" afterPath="$PROJECT_DIR$/누적합/구간합구하기4_11659.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/현대차/바이러스.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/현대차/변속기8단.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/현대차/바이러스.java" beforeDir="false" afterPath="$PROJECT_DIR$/소프티어_현대차/바이러스.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/현대차/변속기8단.java" beforeDir="false" afterPath="$PROJECT_DIR$/소프티어_현대차/변속기8단.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
-  </component>
-  <component name="GitSEFilterConfiguration">
-    <file-type-list>
-      <filtered-out-file-type name="LOCAL_BRANCH" />
-      <filtered-out-file-type name="REMOTE_BRANCH" />
-      <filtered-out-file-type name="TAG" />
-      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
-    </file-type-list>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="28gXHUyfMaryXqdwgE6ndUX6mBZ" />
+  <component name="ProjectId" id="2A32GaMFAmOV4a0y7sZ2QDu7bDQ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
@@ -135,32 +33,17 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="Application.설탕배달_2839">
-    <configuration name="구간합구하기4_11659" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="누적합.구간합구하기4_11659" />
+  <component name="RunManager">
+    <configuration name="세수_10817" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="구현.세수_10817" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="누적합.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="설탕배달_2839" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dp.설탕배달_2839" />
-      <module name="Algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dp.*" />
+          <option name="PATTERN" value="구현.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -170,31 +53,19 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.설탕배달_2839" />
-        <item itemvalue="Application.구간합구하기4_11659" />
+        <item itemvalue="Application.세수_10817" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="50976a8b-ed73-47a6-9c51-1102d72f4388" name="Changes" comment="" />
-      <created>1651639117185</created>
+      <changelist id="82e3329e-71b8-4c45-8fed-79f14febc528" name="Changes" comment="" />
+      <created>1654223853184</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1651639117185</updated>
+      <updated>1654223853184</updated>
     </task>
     <servers />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
 </project>
