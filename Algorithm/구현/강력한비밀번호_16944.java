@@ -28,9 +28,7 @@ public class 강력한비밀번호_16944 {
     public static boolean upper(String id){
         boolean result = false;
         for(int i = 0; i < id.length(); i++){
-            if(Character.isUpperCase(id.charAt(i))) {
-                result = true;
-            }
+            if(Character.isUpperCase(id.charAt(i))) result = true;
         }
         return result;
     }

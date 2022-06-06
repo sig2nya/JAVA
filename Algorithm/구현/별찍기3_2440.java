@@ -7,7 +7,7 @@ public class 별찍기3_2440 {
         Scanner sc = new Scanner(System.in);
         int N = sc.nextInt();
         for(int i = 0; i < N; i++){
-            System.out.println();
+            System.out.println("*".repeat(N - i));
         }
     }
 }
