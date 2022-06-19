@@ -5,10 +5,11 @@ import java.util.Scanner;
 public class 크로아티아알파벳_2941 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		String check[] = {"c=", "c-", "dz=", "d-", "lj", "nj", "s=", "z="};
-		String str = sc.next();
-		for(int i = 0; i < str.length(); i++){
-			if(str.contains(check[i])) str = str.replace(check[i], "!");
+		String str = sc.nextLine();
+		String cro[] = {"c=", "c-", "dz=", "d-", "lj", "nj", "s=", "z="};
+
+		for(int i = 0; i < cro.length; i++){
+			if(str.contains(cro[i])) str = str.replace(cro[i], "!");
 		}
 		System.out.println(str.length());
 	}
