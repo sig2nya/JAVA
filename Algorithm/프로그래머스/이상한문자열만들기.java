@@ -7,7 +7,7 @@ public class 이상한문자열만들기 {
         for(int i = 0; i < s.length(); i++){
             if(Character.isWhitespace(s.charAt(i))) {
                 answer += " ";
-                flag++;
+                flag = 0;
                 continue;
             }
             if(flag % 2 == 0) {
@@ -22,6 +22,6 @@ public class 이상한문자열만들기 {
     }
 
     public static void main(String[] args) {
-        System.out.println(solution("try hello world"));
+        System.out.println(solution("try  hello world"));
     }
 }
