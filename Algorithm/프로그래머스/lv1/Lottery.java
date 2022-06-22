@@ -1,4 +1,4 @@
-package 프로그래머스;
+package 프로그래머스.lv1;
 
 public class Lottery {
 	public static int[] solution(int[] lottos, int[] win_nums) {

@@ -1,4 +1,4 @@
-package 프로그래머스;
+package 프로그래머스.lv1;
 
 public class 소수만들기 {
     public static boolean check(int a, int b, int c){

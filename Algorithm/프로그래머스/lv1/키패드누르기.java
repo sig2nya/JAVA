@@ -1,4 +1,4 @@
-package 프로그래머스;
+package 프로그래머스.lv1;
 
 public class 키패드누르기 {
     public static void main(String[] args) {

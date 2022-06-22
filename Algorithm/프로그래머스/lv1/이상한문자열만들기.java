@@ -1,4 +1,4 @@
-package 프로그래머스;
+package 프로그래머스.lv1;
 
 public class 이상한문자열만들기 {
     public static String solution(String s){

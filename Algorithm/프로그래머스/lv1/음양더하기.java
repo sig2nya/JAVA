@@ -1,4 +1,4 @@
-package 프로그래머스;
+package 프로그래머스.lv1;
 
 public class 음양더하기 {
     public static int main(int[] absolutes, boolean[] signs){

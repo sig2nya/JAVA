@@ -1,4 +1,4 @@
-package 프로그래머스;
+package 프로그래머스.lv1;
 
 public class 숫자문자열과영단어 {
     public static void main(String[] args) {
