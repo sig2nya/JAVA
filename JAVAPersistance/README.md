@@ -1,1 +1,0 @@
-### MyBatis Getting Started
