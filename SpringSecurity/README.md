@@ -10,3 +10,6 @@ Gradle Config
     implementation 'org.apache.tomcat.embed:tomcat-embed-jasper'
     implementation 'javax.servlet:jstl'
 ```
+
+Console 창 
+<img width="865" alt="image" src="https://user-images.githubusercontent.com/70207093/175881700-02cadf44-4100-4248-ade4-df71ef5a03ec.png">
