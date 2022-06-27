@@ -11,4 +11,9 @@ public class HomeController {
         System.out.println("Hello, Controller Starts!");
         return "hello";
     }
+
+    @RequestMapping(value = "/join", method = RequestMethod.GET)
+    public String join(){
+        return "join";
+    }
 }
