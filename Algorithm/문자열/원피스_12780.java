@@ -12,6 +12,5 @@ public class 원피스_12780 {
         while(st.hasMoreTokens()){
             System.out.println(st.nextToken());
         }
-
     }
 }
