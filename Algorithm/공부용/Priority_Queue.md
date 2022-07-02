@@ -32,3 +32,29 @@ class MaxHeap{
   }
 }
 ```
+
+최소 힙
+=====
+```java
+import java.util.*;
+
+class MinHeap {
+    public static void main(String args[])
+    {
+        PriorityQueue<Integer> pq
+            = new PriorityQueue<Integer>();
+        pq.add(1);
+        pq.add(3);
+        pq.add(2);
+        pq.add(4);
+        System.out.println("The highest value in the heap:"
+                        + pq.peek());
+        pq.poll();
+        pq.remove(3);
+        System.out.println("after removing 3:");
+        Iterator<Integer> itr = pq.iterator();
+        while (itr.hasNext())
+            System.out.println(itr.next());
+    }
+}
+```
