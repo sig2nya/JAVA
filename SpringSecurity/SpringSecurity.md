@@ -75,5 +75,5 @@ Spring Security Dependency
 * 또한, 'localhost:8080/logout' URL로 Request시에 다음과 같이 logout도 기본적으로 제공해준다.
   <img width="1680" alt="스크린샷 2022-07-03 16 41 31" src="https://user-images.githubusercontent.com/70207093/177030176-29d9eef2-970b-4f6f-a680-754b9d1e362c.png">
  
-* 개발자 도구의 PayLoad를 살펴보면 User ID 및 Password가 그대로 노출된다! 이제, Authentication을 이용할 시간이다.
+* 개발자 도구의 PayLoad를 살펴보면 User ID 및 Password가 그대로 노출된다! 이제, Authentication을 적용할 시간이다.
   <img width="743" alt="스크린샷 2022-07-03 16 45 52" src="https://user-images.githubusercontent.com/70207093/177030332-a8933aa0-b3ca-483d-bd43-8d79d0246131.png">
