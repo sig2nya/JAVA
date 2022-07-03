@@ -1,3 +1,5 @@
+* 참고 : https://www.youtube.com/watch?v=her_7pa0vrg
+
 Spring Security 
 ===============
 * 초기 pom.xml
