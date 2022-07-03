@@ -56,4 +56,5 @@ public class Student {
 }
 ```
 
-* 해당 URL로 Request
+* 해당 URL로 Request</br>
+  <img width="367" alt="스크린샷 2022-07-03 16 31 07" src="https://user-images.githubusercontent.com/70207093/177029878-fd222d2e-501a-4356-bf07-dc0e9b235f9a.png">
