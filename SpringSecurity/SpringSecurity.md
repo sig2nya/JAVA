@@ -69,3 +69,4 @@ public class Student {
 
 * Application 구동 후, 다음과 같이 LogIn 화면 확인 가능</br>
   <img width="335" alt="스크린샷 2022-07-03 16 33 27" src="https://user-images.githubusercontent.com/70207093/177029959-824dcb23-2e4b-4d78-a7e3-83a88536a482.png">
+* username : user / password : IDE Console에서 Spring Security가 자동적으로 생성한다. Console 창에서 비밀번호를 찾을 수 있다.
