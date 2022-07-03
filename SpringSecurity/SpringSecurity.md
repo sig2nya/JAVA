@@ -3,14 +3,14 @@ Spring Security
 * 초기 pom.xml
 ```java
 <dependency>
-<groupId>org.springframework.boot</groupId>
-<artifactId>spring-boot-starter-web</artifactId>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-web</artifactId>
 </dependency>
 
 <dependency>
-<groupId>org.springframework.boot</groupId>
-<artifactId>spring-boot-starter-test</artifactId>
-<scope>test</scope>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-test</artifactId>
+    <scope>test</scope>
 </dependency>
 ```
 
@@ -58,3 +58,11 @@ public class Student {
 
 * 해당 URL로 Request</br>
   <img width="367" alt="스크린샷 2022-07-03 16 31 07" src="https://user-images.githubusercontent.com/70207093/177029878-fd222d2e-501a-4356-bf07-dc0e9b235f9a.png">
+
+* Spring Security Dependency 추가
+```java
+  <dependency>
+	<groupId>org.springframework.boot</groupId>
+	<artifactId>spring-boot-starter-security</artifactId>
+  </dependency>
+```
