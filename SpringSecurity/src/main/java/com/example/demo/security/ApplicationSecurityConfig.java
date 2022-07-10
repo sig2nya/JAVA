@@ -12,6 +12,9 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.provisioning.InMemoryUserDetailsManager;
 
+import static com.example.demo.security.ApplicationUserRole.ADMIN;
+import static com.example.demo.security.ApplicationUserRole.STUDENT;
+
 @Configuration
 @EnableWebSecurity
 public class ApplicationSecurityConfig extends WebSecurityConfigurerAdapter {
@@ -30,9 +33,9 @@ public class ApplicationSecurityConfig extends WebSecurityConfigurerAdapter {
     protected void configure(HttpSecurity http) throws Exception {
         http
                 .authorizeRequests()
-                .antMatchers("/", "index", "/css/*", "/js/*")
+                .antMatchers("/", "index", "/css/*", "/js/*").permitAll()
                 // antMatchers를 통해서 요청 리소스에 대해 특별한 Auth가 필요 없이 접근 가능하다.
-                .permitAll()
+                .antMatchers("/api/**").hasRole(STUDENT.name())
                 .anyRequest()
                 .authenticated()
                 .and()
@@ -45,7 +48,13 @@ public class ApplicationSecurityConfig extends WebSecurityConfigurerAdapter {
         UserDetails annaSmithUser = User.builder()
                 .username("annasmith")
                 .password(passwordEncoder.encode("password")) // Password must be encoded로 인하여, PasswordConfig를 따로 해주어야한다.
-                .roles("STUDENT") // ROLE_STUDENT
+                .roles(STUDENT.name()) // ROLE_STUDENT
+                .build();
+
+        UserDetails lindaUser = User.builder()
+                .username("linda")
+                .password(passwordEncoder.encode("password123"))
+                .roles(ADMIN.name())
                 .build();
 
         return new InMemoryUserDetailsManager(
