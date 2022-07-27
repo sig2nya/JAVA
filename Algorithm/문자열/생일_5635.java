@@ -7,7 +7,6 @@ public class 생일_5635 {
         Scanner sc = new Scanner(System.in);
         User Mickey = new User("Mickey", 1, 10, 1991);
         User Alice = new User("Alice", 30, 12, 1990);
-
         int test = Alice.compareTo(Mickey);
         System.out.println(test);
     }
