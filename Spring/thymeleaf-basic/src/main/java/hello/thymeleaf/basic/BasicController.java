@@ -88,7 +88,6 @@ public class BasicController {
         return "basic/operation";
     }
 
-<<<<<<< HEAD
     @GetMapping("/attribute")
     public String attribute(){
         return "basic/attribute";
@@ -125,8 +124,6 @@ public class BasicController {
         return "basic/javascript";
     }
 
-=======
->>>>>>> 9346c9d46cdf24dc3705ba3adea6621a75b4a8ef
     @Data
     static class User{
         private String username;
@@ -136,5 +133,15 @@ public class BasicController {
             this.username = username;
             this.age = age;
         }
+    }
+
+    private void addUsers(Model model){
+        List<User> list = new ArrayList<>();
+        list.add(new User("userA", 10));
+        list.add(new User("userB", 20));
+        list.add(new User("userC", 30));
+
+        model.addAttribute("users", list);
+
     }
 }

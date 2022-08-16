@@ -10,7 +10,7 @@ public class Item {
     private String itemName;
     private Integer price; // Integer를 사용하는 이유는 Null 값이 들어갈 수도 있기 때문.
     private Integer quantity;
-    private boolean open;
+    private Boolean open;
     private List<String> regions;
     private ItemType itemType;
     private String deliveryCode;
@@ -23,4 +23,5 @@ public class Item {
         this.price = price;
         this.quantity = quantity;
     }
+
 }
