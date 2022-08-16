@@ -38,7 +38,8 @@ public class BasicItemController {
     }
 
     @GetMapping("/add")
-    public String addForm(){
+    public String addForm(Model model){
+        model.addAttribute("item", new Item());
         return "basic/addForm";
     }
 
@@ -105,6 +106,7 @@ public class BasicItemController {
     public String editForm(@PathVariable Long itemId, Model model){
         Item item = itemRepository.findById(itemId);
         model.addAttribute("item", item);
+
         return "basic/editForm";
     }
     @PostMapping("/{itemId}/edit")
