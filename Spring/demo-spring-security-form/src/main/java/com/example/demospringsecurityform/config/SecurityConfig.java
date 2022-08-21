@@ -1,11 +1,15 @@
 package com.example.demospringsecurityform.config;
 
+<<<<<<< HEAD
 import com.example.demospringsecurityform.account.AccountService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
+=======
+import org.springframework.context.annotation.Configuration;
+>>>>>>> 6a51b2869795cd060711c19b18ecfd25057a090e
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.builders.WebSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
