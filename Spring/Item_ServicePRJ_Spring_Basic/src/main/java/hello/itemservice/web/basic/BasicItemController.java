@@ -3,14 +3,18 @@ package hello.itemservice.web.basic;
 import hello.itemservice.domain.item.Item;
 import hello.itemservice.domain.item.ItemRepository;
 import lombok.RequiredArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 import javax.annotation.PostConstruct;
+import java.util.LinkedHashMap;
 import java.util.List;
+import java.util.Map;
 
+@Slf4j
 @Controller
 @RequestMapping("/basic/items")
 @RequiredArgsConstructor // 초기화 되지않은 final 필드나, @NonNull이 붙은 필드에 대해 생성자를 생성.
@@ -38,7 +42,8 @@ public class BasicItemController {
     }
 
     @GetMapping("/add")
-    public String addForm(){
+    public String addForm(Model model){
+        model.addAttribute("item", new Item());
         return "basic/addForm";
     }
 
@@ -95,6 +100,8 @@ public class BasicItemController {
 
     @PostMapping("/add")
     public String addItemV6(Item item, RedirectAttributes redirectAttributes){
+        log.info("item.open = {}", item.getOpen());
+        log.info("item.regions = {}", item.getRegions());
         Item savedItem = itemRepository.save(item);
         redirectAttributes.addAttribute("itemId", savedItem.getId());
         redirectAttributes.addAttribute("status", true);
@@ -105,12 +112,22 @@ public class BasicItemController {
     public String editForm(@PathVariable Long itemId, Model model){
         Item item = itemRepository.findById(itemId);
         model.addAttribute("item", item);
+
         return "basic/editForm";
     }
     @PostMapping("/{itemId}/edit")
     public String edit(@PathVariable Long itemId, @ModelAttribute Item item){
         itemRepository.update(itemId, item);
         return "redirect:/basic/items/{itemId}";
+    }
+
+    @ModelAttribute("regions")
+    public Map<String, String> regions(){
+        Map<String, String> regions = new LinkedHashMap<>();
+        regions.put("SEOUL", "서울");
+        regions.put("BUSAN", "부산");
+        regions.put("JEJU", "제주");
+        return regions;
     }
 }
 
