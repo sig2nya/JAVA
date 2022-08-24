@@ -8,4 +8,8 @@ public enum ItemType {
     ItemType(String discription){
         this.discription = discription;
     }
+
+    public String getDiscription(){
+        return discription;
+    }
 }
