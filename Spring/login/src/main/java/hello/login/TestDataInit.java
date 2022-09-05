@@ -31,5 +31,4 @@ public class TestDataInit {
 
         memberRepository.save(member);
     }
-
 }
