@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import javax.servlet.http.HttpSession;
+import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -48,16 +49,6 @@ public class BasicController {
         return "basic/variable";
     }
 
-    @Data
-    static class User{
-        private String username;
-        private int age;
-        public User(String username, int age){
-            this.username = username;
-            this.age = age;
-        }
-    }
-
     @GetMapping("/basic-objects")
     public String basicObjects(HttpSession session){
         session.setAttribute("sessionData", "Hello Session");
@@ -70,4 +61,81 @@ public class BasicController {
             return "Hello, " + data;
         }
     }
+
+    @GetMapping("/date")
+    public String date(Model model){
+        model.addAttribute("localDateTime", LocalDateTime.now());
+        return "basic/date";
+    }
+
+    @GetMapping("/link")
+    public String link(Model model){
+        model.addAttribute("param1", "데이터1");
+        model.addAttribute("param2", "데이터2");
+        return "basic/link";
+    }
+
+    @GetMapping("/literal")
+    public String literal(Model model){
+        model.addAttribute("data", "Spring!");
+        return "basic/literal";
+    }
+
+    @GetMapping("/operation")
+    public String operation(Model model){
+        model.addAttribute("nullData", null);
+        model.addAttribute("data", "Spring!");
+        return "basic/operation";
+    }
+
+    @GetMapping("/attribute")
+    public String attribute(){
+        return "basic/attribute";
+    }
+
+    @GetMapping("/each")
+    public String each(Model model){
+        addUsers(model);
+        return "basic/each";
+    }
+
+    @GetMapping("/condition")
+    public String condition(Model model){
+        addUsers(model);
+        return "basic/condition";
+    }
+
+    @GetMapping("/comments")
+    public String comments(Model model){
+        model.addAttribute("data", "Spring!");
+        return "basic/comments";
+    }
+
+    @GetMapping("/block")
+    public String block(Model model){
+        addUsers(model);
+        return "basic/block";
+    }
+
+
+
+    @Data
+    static class User{
+        private String username;
+        private int age;
+        public User(String username, int age){
+            this.username = username;
+            this.age = age;
+        }
+    }
+
+    private void addUsers(Model model){
+        List<User> list = new ArrayList<>();
+        list.add(new User("userA", 10));
+        list.add(new User("userB", 20));
+        list.add(new User("userC", 30));
+
+        model.addAttribute("users", list);
+    }
+
 }
