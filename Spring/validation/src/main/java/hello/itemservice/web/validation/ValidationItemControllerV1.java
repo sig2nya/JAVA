@@ -43,27 +43,26 @@ public class ValidationItemControllerV1 {
     }
 
     @PostMapping("/add")
-    public String addItem(@ModelAttribute Item item, RedirectAttributes redirectAttributes, Model model) {
-
+    public String addItem(@ModelAttribute Item item, RedirectAttributes redirectAttributes, Model model){
         Map<String, String> errors = new HashMap<>();
-
         if(!StringUtils.hasText(item.getItemName())){
             errors.put("itemName", "상품 이름은 필수입니다.");
-        } else if(item.getPrice() == null || item.getPrice() < 1000 || item.getPrice() > 1000000){
+        }
+        else if(item.getPrice() == null || item.getPrice() < 1000 || item.getPrice() > 1000000){
             errors.put("price", "가격은 1,000 ~ 1,000,000 사이입니다.");
-        } else if(item.getQuantity() == null || item.getQuantity() >= 9999){
-            errors.put("quantity", "수량은 최대 9,999 사이입니다.");
+        }
+        else if(item.getQuantity() == null || item.getQuantity() >= 9999){
+            errors.put("quantity", "수량은 최대 9,9999까지 허용합니다.");
         }
 
         if(item.getPrice() != null && item.getQuantity() != null){
             int resultPrice = item.getPrice() * item.getQuantity();
             if(resultPrice < 10000){
-                errors.put("globalError", "가격 * 수량의 합은 10,000 이상이어야 합니다. 현재 값 = " + resultPrice);
+                errors.put("globalError", "가격 * 수량은 10,000 이상이어야 합니다. 현재 값 = " + resultPrice);
             }
         }
 
         if(!errors.isEmpty()){
-            log.info("errors = {}", errors);
             model.addAttribute("errors", errors);
             return "validation/v1/addForm";
         }
