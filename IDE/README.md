@@ -1,1 +1,1 @@
-Eclipse / Intellij 알고 사용하자.
+Eclipse / Intellij 알고 쓰자
