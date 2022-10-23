@@ -2,13 +2,14 @@
 
 Spring MVC 전체 구조
 ====================
-1. HTTP 요청 -> Dispatcher Servlet
+1. Dispatcher Servlet
  - Dispatcher Servlet은 Spring MVC의 Front Contller
  - Dispatcher Servlet은 Spring MVC의 핵심
  - Dispatcher Servlet 또한 HttpServlet을 상속받으며, Servlet으로 동작 : DispatcherServlet -> FrameworkServlet -> HttpServletBean -> HttpServlet
  - Spring Boot는 DispatcherServlet을 Servlet으로 자동등록하며, 모든 경로(urlPatterns="/")에 대해서 매핑
  - DispatcherServlet의 부모인 FrameworkServlet에서 service를 override
  - 최종적으로 DispatcherServlet.doDispatch()가 호출
+ - Handler 조회(url에 매핑된 Contoller 조회) -> Handler Adapter 조회 -> Handler Adapter 실행 -> Handler 실행 -> ModelAndView Return -> viewResolver 호출 -> View return -> View Rendering
 ```java
 package org.springframework.web.servlet;
 // Dispatcher Servlet Class
