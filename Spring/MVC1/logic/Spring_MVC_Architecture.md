@@ -10,6 +10,11 @@ Spring MVC 전체 구조
  - DispatcherServlet의 부모인 FrameworkServlet에서 service를 override
  - 최종적으로 DispatcherServlet.doDispatch()가 호출
  - Handler 조회(url에 매핑된 Contoller 조회) -> Handler Adapter 조회 -> Handler Adapter 실행 -> Handler 실행 -> ModelAndView Return -> viewResolver 호출 -> View return -> View Rendering
+2. 주요 인터페이스 목록
+ - Handler Mapping : org.springramework.web.servlet.HandlerMapping
+ - Handler Adapter : org.springframework.web.servlet.HandlerAdaper
+ - View Resolver : org.springframework.web.servlet.ViewResolver
+ - View : org.springframework.web.servlet.View
 ```java
 package org.springframework.web.servlet;
 // Dispatcher Servlet Class
