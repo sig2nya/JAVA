@@ -11,7 +11,7 @@ Spring MVC 전체 구조
  - 최종적으로 DispatcherServlet.doDispatch()가 호출
 ```java
 package org.springframework.web.servlet;
-// 
+// Dispatcher Servlet Class
 
 protected void doDispatch(HttpServletRequest request, HttpServletResponse response) throws Exception {
 		HttpServletRequest processedRequest = request;
