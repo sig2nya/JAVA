@@ -2,6 +2,7 @@ package hello.servlet.basic.response;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import hello.servlet.basic.HelloData;
+import org.springframework.web.servlet.DispatcherServlet;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
