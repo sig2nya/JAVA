@@ -28,7 +28,8 @@ public class ServletUploadControllerV1 {
         String itemName = request.getParameter("itemName");
         log.info("itemName = {}", itemName);
 
-        Collection<Part> parts = request.getParts(); // http message의 multiplart/form-data 전송 방식에서 나누어진 부분
+        // http message의 multipart/form-data 전송 방식에서 나누어진 부분(Part)
+        Collection<Part> parts = request.getParts();
         log.info("parts = {}", parts);
 
         return "upload-form";
