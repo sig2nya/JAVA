@@ -14,8 +14,8 @@
 ```java
 @GetMapping("/add")
 public String addForm(Model model){
-  model.addAttribute("item", new Item());
-  return "form/addFomr";
+  model.addAttribute("item", new Item());  // Item 객체는 itemName, price, quantity 속성을 
+  return "form/addForm";
 }
 ```
 
