@@ -1,11 +1,13 @@
 package 프로그래머스.lv1;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 public class 신고결과받기 {
+    public static void main(String[] args) {
+        String[] id_list = {"muzi", "frodo", "apeach", "neo"};
+        String[] report = {"muzi frodo", "apeach frodo", "frodo neo", "muzi neo", "apeach muzi"};
+        solution(id_list, report, 2);
+    }
     public static int[] solution(String[] id_list, String[] report, int k){
         int ret[] = new int[id_list.length];
         Map<String, Integer> index = new HashMap<>();
@@ -17,20 +19,12 @@ public class 신고결과받기 {
 
         for(String rep : report){
             String[] ids = rep.split(" ");
-            String fromId = ids[0], toId = ids[1];
-            if(!list.containsKey(toId)) list.put(toId, new ArrayList<>());
-            List<Integer> tmp = list.get(toId);
-            if(!tmp.contains(index.get(fromId))) tmp.add(index.get(fromId));
-        }
+            if(!list.containsKey(ids[1])) list.put(ids[1], new ArrayList<>());
 
-        for(int i=0 ; i<id_list.length ; i++) {
-            String id = id_list[i];
-            if(list.containsKey(id) && list.get(id).size()>=k) {
-                for(int idx : list.get(id)) {
-                    ret[idx]++;
-                }
-            }
+            List<Integer> tmp = list.get(ids[1]);
+            if(!tmp.contains(index.get(ids[0]))) tmp.add(index.get(ids[0]));
         }
         return ret;
     }
+
 }
