@@ -12,6 +12,7 @@ import static hello.jdbc.connection.ConnectionConst.*;
 public class DBConnectionUtil {
    public static Connection getConnection(){
        try{
+           // DB에 연결하려면, JDBC가 제공하는 DriverManager.getConnection을 사용한다.
            Connection connection = DriverManager.getConnection(URL, USERNAME, PASSWORD);
            log.info("get connection = {}, class = {}", connection, connection.getClass());
            return connection;
