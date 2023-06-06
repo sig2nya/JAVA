@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="hello.jdbc.connection.ConnectionTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-01-15T08:05:21" hostname="홍민식" time="1.116">
+  <properties/>
+  <testcase name="dataSourceConnectionPool()" classname="hello.jdbc.connection.ConnectionTest" time="1.116"/>
+  <system-out><![CDATA[17:05:21.727 [Test worker] INFO hello.jdbc.connection.ConnectionTest - connection = conn0: url=jdbc:h2:tcp://localhost/~/test user=SA, class = class org.h2.jdbc.JdbcConnection
+17:05:21.727 [Test worker] INFO hello.jdbc.connection.ConnectionTest - connection = conn1: url=jdbc:h2:tcp://localhost/~/test user=SA, class = class org.h2.jdbc.JdbcConnection
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

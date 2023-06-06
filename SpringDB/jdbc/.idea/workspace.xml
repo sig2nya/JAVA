@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="993a885c-7001-49ca-99e7-28a8b9340d7d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Algorithm/배열/세로읽기_10798.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Algorithm/배열/최대값_2566.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Algorithm/배열/행렬덧셈_2738.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hello/jdbc/repository/MemberRepositoryV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hello/jdbc/repository/MemberRepositoryV3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hello/jdbc/service/MemberServiceV1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hello/jdbc/service/MemberServiceV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hello/jdbc/service/MemberServiceV3_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hello/jdbc/service/MemberServiceV3_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hello/jdbc/service/MemberServiceV3_3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/hello/jdbc/service/MemberServiceV1Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/hello/jdbc/service/MemberServiceV2Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/hello/jdbc/service/MemberServiceV3_1Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/hello/jdbc/service/MemberServiceV3_2Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/hello/jdbc/service/MemberServiceV3_3Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/hello/jdbc/service/MemberServiceV3_4Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Qj6vFWC6dD7Ij3QlRnsPMDDRhl" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/Hansol/Desktop/업무/홍민식/JAVA/SpringDB/jdbc",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="hello.jdbc.service" />
+      <recent name="hello.jdbc.repository" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.MemberServiceV2Test">
+    <configuration name="TCP_Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.TCP_Client" />
+      <module name="jdbc.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConnectionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jdbc.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hello.jdbc.connection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hello.jdbc.connection" />
+      <option name="MAIN_CLASS_NAME" value="hello.jdbc.connection.ConnectionTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MemberServiceV1Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jdbc.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hello.jdbc.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hello.jdbc.service" />
+      <option name="MAIN_CLASS_NAME" value="hello.jdbc.service.MemberServiceV1Test" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MemberServiceV2Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jdbc.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hello.jdbc.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hello.jdbc.service" />
+      <option name="MAIN_CLASS_NAME" value="hello.jdbc.service.MemberServiceV2Test" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DBConnectionUtilTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="jdbc.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hello.jdbc.connection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hello.jdbc.connection" />
+      <option name="MAIN_CLASS_NAME" value="hello.jdbc.connection.DBConnectionUtilTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MemberServiceV2Test" />
+        <item itemvalue="JUnit.MemberServiceV1Test" />
+        <item itemvalue="JUnit.ConnectionTest" />
+        <item itemvalue="TestNG.DBConnectionUtilTest" />
+        <item itemvalue="Application.TCP_Client" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\Hansol\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="993a885c-7001-49ca-99e7-28a8b9340d7d" name="Changes" comment="" />
+      <created>1685854873747</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1685854873747</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
