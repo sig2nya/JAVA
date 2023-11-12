@@ -3,24 +3,25 @@ package 정렬;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
+import java.util.*;
 
 public class 수정렬하기_2751 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        int N = Integer.parseInt(br.readLine());
         StringBuilder sb = new StringBuilder();
 
-        List<Integer> list = new ArrayList<>();
-        for(int i = 0; i < N; i++) list.add(Integer.parseInt(br.readLine()));
+        int N = Integer.parseInt(br.readLine());
+        int arr[] = new int[N];
 
-        Collections.sort(list);
-
-        for(int i : list){
-            sb.append(i).append('\n');
+        for (int i = 0; i < N; i++) {
+            arr[i] = Integer.parseInt(br.readLine());
         }
+
+        Arrays.sort(arr);
+        for (int i = 0; i < N; i++) {
+            sb.append(arr[i]).append('\n');
+        }
+
         System.out.println(sb);
     }
 }

@@ -5,12 +5,54 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e394e70b-75f2-4238-8bea-7b8f25c0c661" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/배열/행렬덧셈_2738.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringDB/jdbc/src/main/java/hello/jdbc/repository/MemberRepositoryV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringDB/jdbc/src/main/java/hello/jdbc/service/MemberServiceV1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringDB/jdbc/src/main/java/hello/jdbc/service/MemberServiceV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringDB/jdbc/src/test/java/hello/jdbc/service/MemberServiceV1Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringDB/jdbc/src/test/java/hello/jdbc/service/MemberServiceV2Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NICE정보통신/NO2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/공부용/PreOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/공부용/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/공부용/퀵정렬.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/배열/색종이_2653.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/수학/세탁소사장동혁_2720.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/수학/중앙이동알고리즘_2903.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/수학/진법변환2_11005.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/약수_배수와_소수/소인수분해_11653.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/약수_배수와_소수/약수들의합_9506.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/일반수학1/진법변환_2745.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/정렬/대표값2_2587.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/정렬/수정렬하기_10989.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/정렬/좌표정렬하기_11650.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/프로그래머스/lv1/개인정보수집유효기간.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/프로그래머스/lv1/로또최고순위와최저순위.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/프로그래머스/lv1/성격유형검사.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/프로그래머스/lv1/성격유형검사하기.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/프로그래머스/lv1/실패율.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringDB/jdbc/src/test/java/hello/jdbc/exception/basic/CheckedTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/배열/세로읽기_10798.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/배열/세로읽기_10798.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/정렬/수정렬하기_2750.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/정렬/수정렬하기_2750.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/정렬/수정렬하기_2751.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/정렬/수정렬하기_2751.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/정렬/커트라인_25305.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/정렬/커트라인_25305.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/프로그래머스/lv1/숫자문자열과영단어.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/프로그래머스/lv1/숫자문자열과영단어.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/프로그래머스/lv1/크레인_인형뽑기_게임.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/프로그래머스/lv1/크레인_인형뽑기_게임.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/프로그래머스/lv1/키패드누르기.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/현대차/lv1/근무시간.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/현대차/lv1/주행거리비교하기.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/현대차/lv2/전광판.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/배열/세로읽기_10798.java" beforeDir="false" afterPath="$PROJECT_DIR$/배열/세로읽기_10798.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/정렬/수정렬하기_2750.java" beforeDir="false" afterPath="$PROJECT_DIR$/정렬/수정렬하기_2750.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/정렬/수정렬하기_2751.java" beforeDir="false" afterPath="$PROJECT_DIR$/정렬/수정렬하기_2751.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/정렬/커트라인_25305.java" beforeDir="false" afterPath="$PROJECT_DIR$/정렬/커트라인_25305.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/프로그래머스/lv1/숫자문자열과영단어.java" beforeDir="false" afterPath="$PROJECT_DIR$/프로그래머스/lv1/숫자문자열과영단어.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/프로그래머스/lv1/신규아이디추천.java" beforeDir="false" afterPath="$PROJECT_DIR$/프로그래머스/lv1/신규아이디추천.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/프로그래머스/lv1/크레인_인형뽑기_게임.java" beforeDir="false" afterPath="$PROJECT_DIR$/프로그래머스/lv1/크레인_인형뽑기_게임.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/프로그래머스/lv1/키패드누르기.java" beforeDir="false" afterPath="$PROJECT_DIR$/프로그래머스/lv1/키패드누르기.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/현대차/lv1/근무시간.java" beforeDir="false" afterPath="$PROJECT_DIR$/HD/lv1/근무시간.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/현대차/lv1/주행거리비교하기.java" beforeDir="false" afterPath="$PROJECT_DIR$/HD/lv1/주행거리비교하기.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/현대차/lv2/전광판.java" beforeDir="false" afterPath="$PROJECT_DIR$/HD/lv2/전광판.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringDB/jdbc/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringDB/jdbc/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringDB/jdbc/out/production/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringDB/jdbc/out/production/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sutdy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Sutdy/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,16 +77,29 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/Hansol/Desktop/업무/홍민식/JAVA/Algorithm"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Hansol/Desktop/업무/홍민식/JAVA/Algorithm&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.행렬덧셈_2738">
-    <configuration name="신고결과받기" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="프로그래머스.lv1.신고결과받기" />
+}</component>
+  <component name="RunManager" selected="Application.실패율">
+    <configuration name="퀵정렬" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="공부용.퀵정렬" />
+      <module name="Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="공부용.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="실패율" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="프로그래머스.lv1.실패율" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
@@ -56,8 +111,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="프로그래머스.lv1.Test" />
+    <configuration name="NO2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="NICE정보통신.NO2" />
+      <module name="Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="NICE정보통신.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PreOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="공부용.PreOrder" />
+      <module name="Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="공부용.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="개인정보수집유효기간" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="프로그래머스.lv1.개인정보수집유효기간" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
@@ -69,12 +150,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="행렬덧셈_2738" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="배열.행렬덧셈_2738" />
+    <configuration name="숫자문자열과영단어" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="프로그래머스.lv1.숫자문자열과영단어" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="배열.*" />
+          <option name="PATTERN" value="프로그래머스.lv1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -82,12 +163,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="문자와문자열_27866" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="문자열.문자와문자열_27866" />
+    <configuration name="실패율" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="프로그래머스.lv1.실패율" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="문자열.*" />
+          <option name="PATTERN" value="프로그래머스.lv1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,12 +176,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="코딩은_체육과목_25314" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="반복문.코딩은_체육과목_25314" />
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="공부용.test" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="반복문.*" />
+          <option name="PATTERN" value="공부용.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,11 +191,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.행렬덧셈_2738" />
-        <item itemvalue="Application.신고결과받기" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.문자와문자열_27866" />
-        <item itemvalue="Application.코딩은_체육과목_25314" />
+        <item itemvalue="Application.실패율" />
+        <item itemvalue="Application.PreOrder" />
+        <item itemvalue="Application.test" />
+        <item itemvalue="Application.퀵정렬" />
+        <item itemvalue="Application.NO2" />
       </list>
     </recent_temporary>
   </component>

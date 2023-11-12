@@ -4,16 +4,21 @@ import java.util.Scanner;
 
 public class 세로읽기_10798 {
     public static void main(String[] args) {
-        String arr[][] = new String[5][15];
         Scanner sc = new Scanner(System.in);
+        char arr[][] = new char[5][15];
 
         for(int i = 0; i < 5; i++){
-            arr[i] = sc.nextLine().split("");
+            String str = sc.nextLine();
+            for(int j = 0; j < str.length(); j++){
+                arr[i][j] = str.charAt(j);
+            }
         }
 
-        for(int i = 0; i < 5; i++){
-            for(int j = 0; j < arr[i].length; j++){
-
+        for(int i = 0; i < 15; i++){
+            for(int j = 0; j < 5; j++){
+                if(arr[j][i] != '\0'){
+                    System.out.print(arr[j][i]);
+                }
             }
         }
     }

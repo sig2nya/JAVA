@@ -5,91 +5,56 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="998cb95c-4296-4a7c-b810-330f25b4ebb0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../Algorithm/문자열/문자와문자열_27866.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Algorithm/반복문/코딩은_체육과목_25314.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Algorithm/스택/ZERO_10773.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Algorithm/스택/괄호_9012.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Algorithm/스택/균형잡힌세상_4949.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Algorithm/심화1/별찍기7_2444.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Algorithm/정렬/바구니_뒤집기_10811.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Sutdy/src/network/socket/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Sutdy/src/network/socket/Server.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Algorithm/프로그래머스/lv1/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Algorithm/프로그래머스/lv1/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Algorithm/프로그래머스/lv1/신고결과받기.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Algorithm/프로그래머스/lv1/신고결과받기.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/message/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/message/gradlew" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/message/src/main/java/hello/itemservice/ItemServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/message/src/main/java/hello/itemservice/ItemServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/message/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/message/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/message/src/main/resources/messages.properties" beforeDir="false" afterPath="$PROJECT_DIR$/message/src/main/resources/messages.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/message/src/main/resources/messages_en.properties" beforeDir="false" afterPath="$PROJECT_DIR$/message/src/main/resources/messages_en.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/message/src/main/resources/templates/message/addForm.html" beforeDir="false" afterPath="$PROJECT_DIR$/message/src/main/resources/templates/message/addForm.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/message/src/main/resources/templates/message/editForm.html" beforeDir="false" afterPath="$PROJECT_DIR$/message/src/main/resources/templates/message/editForm.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/message/src/main/resources/templates/message/item.html" beforeDir="false" afterPath="$PROJECT_DIR$/message/src/main/resources/templates/message/item.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/message/src/main/resources/templates/message/items.html" beforeDir="false" afterPath="$PROJECT_DIR$/message/src/main/resources/templates/message/items.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/message/src/test/java/hello/itemservice/message/MessageSourceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/message/src/test/java/hello/itemservice/message/MessageSourceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/validation-start/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/validation-start/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/validation-start/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/validation-start/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/validation-start/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/validation-start/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/validation-start/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/validation-start/src/main/java/hello/itemservice/ItemServiceApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/validation-start/src/main/java/hello/itemservice/TestDataInit.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/validation-start/src/main/java/hello/itemservice/domain/item/Item.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/validation-start/src/main/java/hello/itemservice/domain/item/ItemRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/validation-start/src/main/java/hello/itemservice/web/validation/ValidationItemControllerV1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/validation-start/src/main/java/hello/itemservice/web/validation/ValidationItemControllerV2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/validation-start/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/validation-start/src/main/resources/messages.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/validation-start/src/main/resources/messages_en.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/validation-start/src/main/resources/static/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/validation-start/src/main/resources/static/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/validation-start/src/main/resources/templates/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/validation-start/src/main/resources/templates/validation/v1/addForm.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/validation-start/src/main/resources/templates/validation/v1/editForm.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/validation-start/src/main/resources/templates/validation/v1/item.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/validation-start/src/main/resources/templates/validation/v1/items.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/validation-start/src/main/resources/templates/validation/v2/addForm.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/validation-start/src/main/resources/templates/validation/v2/editForm.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/validation-start/src/main/resources/templates/validation/v2/item.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/validation-start/src/main/resources/templates/validation/v2/items.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/validation-start/src/test/java/hello/itemservice/ItemServiceApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/validation-start/src/test/java/hello/itemservice/domain/item/ItemRepositoryTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/validation-start/src/test/java/hello/itemservice/message/MessageSourceTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/validation/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/validation/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/validation/src/main/java/hello/itemservice/domain/item/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/validation/src/main/java/hello/itemservice/domain/item/Item.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/validation/src/main/java/hello/itemservice/domain/item/SaveCheck.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/validation/src/main/java/hello/itemservice/domain/item/UpdateCheck.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/validation/src/main/java/hello/itemservice/web/validation/ItemValidator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/validation/src/main/java/hello/itemservice/web/validation/ValidationItemApiController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/validation/src/main/java/hello/itemservice/web/validation/ValidationItemControllerV1.java" beforeDir="false" afterPath="$PROJECT_DIR$/validation/src/main/java/hello/itemservice/web/validation/ValidationItemControllerV1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/validation/src/main/java/hello/itemservice/web/validation/ValidationItemControllerV2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/validation/src/main/java/hello/itemservice/web/validation/ValidationItemControllerV3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/validation/src/main/java/hello/itemservice/web/validation/ValidationItemControllerV4.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/validation/src/main/java/hello/itemservice/web/validation/form/ItemSaveForm.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/validation/src/main/java/hello/itemservice/web/validation/form/ItemUpdateForm.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/validation/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/validation/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/validation/src/main/resources/errors.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/validation/src/main/resources/templates/validation/v1/addForm.html" beforeDir="false" afterPath="$PROJECT_DIR$/validation/src/main/resources/templates/validation/v1/addForm.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/validation/src/main/resources/templates/validation/v2/addForm.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/validation/src/main/resources/templates/validation/v2/editForm.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/validation/src/main/resources/templates/validation/v2/item.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/validation/src/main/resources/templates/validation/v2/items.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/validation/src/main/resources/templates/validation/v3/addForm.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/validation/src/main/resources/templates/validation/v3/editForm.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/validation/src/main/resources/templates/validation/v3/item.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/validation/src/main/resources/templates/validation/v3/items.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/validation/src/main/resources/templates/validation/v4/addForm.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/validation/src/main/resources/templates/validation/v4/editForm.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/validation/src/main/resources/templates/validation/v4/item.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/validation/src/main/resources/templates/validation/v4/items.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/validation/src/test/java/hello/itemservice/validation/BeanValidationTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/validation/src/test/java/hello/itemservice/validation/MessageCodesResolverTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringDB/jdbc/src/main/java/hello/jdbc/repository/MemberRepositoryV4_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringDB/jdbc/src/main/java/hello/jdbc/repository/MemberRepositoryV4_2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringDB/jdbc/src/main/java/hello/jdbc/repository/MemberRepositoryV5.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringDB/jdbc/src/main/java/hello/jdbc/repository/MemberRepositoryV5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringDB/jdbc/src/test/java/hello/jdbc/exception/translator/SpringExceptionTranslatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringDB/jdbc/src/test/java/hello/jdbc/exception/translator/SpringExceptionTranslatorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringDB/jdbc/src/test/java/hello/jdbc/service/MemberServiceV4Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringDB/jdbc/src/test/java/hello/jdbc/service/MemberServiceV4Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Sutdy/src/sample/Sample.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Algorithm/NICE정보통신/NO2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Algorithm/공부용/PreOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Algorithm/공부용/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Algorithm/공부용/퀵정렬.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Algorithm/배열/색종이_2653.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Algorithm/수학/세탁소사장동혁_2720.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Algorithm/수학/중앙이동알고리즘_2903.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Algorithm/수학/진법변환2_11005.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Algorithm/약수_배수와_소수/소인수분해_11653.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Algorithm/약수_배수와_소수/약수들의합_9506.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Algorithm/일반수학1/진법변환_2745.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Algorithm/정렬/대표값2_2587.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Algorithm/정렬/수정렬하기_10989.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Algorithm/정렬/좌표정렬하기_11650.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Algorithm/프로그래머스/lv1/개인정보수집유효기간.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Algorithm/프로그래머스/lv1/로또최고순위와최저순위.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Algorithm/프로그래머스/lv1/성격유형검사.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Algorithm/프로그래머스/lv1/성격유형검사하기.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Algorithm/프로그래머스/lv1/실패율.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringDB/jdbc/src/test/java/hello/jdbc/exception/basic/CheckedTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Algorithm/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Algorithm/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/out/production/Algorithm/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Algorithm/out/production/Algorithm/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/out/production/Algorithm/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Algorithm/out/production/Algorithm/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/out/production/Algorithm/배열/세로읽기_10798.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Algorithm/out/production/Algorithm/배열/세로읽기_10798.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/out/production/Algorithm/정렬/수정렬하기_2750.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Algorithm/out/production/Algorithm/정렬/수정렬하기_2750.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/out/production/Algorithm/정렬/수정렬하기_2751.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Algorithm/out/production/Algorithm/정렬/수정렬하기_2751.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/out/production/Algorithm/정렬/커트라인_25305.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Algorithm/out/production/Algorithm/정렬/커트라인_25305.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/out/production/Algorithm/프로그래머스/lv1/숫자문자열과영단어.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Algorithm/out/production/Algorithm/프로그래머스/lv1/숫자문자열과영단어.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/out/production/Algorithm/프로그래머스/lv1/크레인_인형뽑기_게임.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Algorithm/out/production/Algorithm/프로그래머스/lv1/크레인_인형뽑기_게임.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/out/production/Algorithm/프로그래머스/lv1/키패드누르기.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/out/production/Algorithm/현대차/lv1/근무시간.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/out/production/Algorithm/현대차/lv1/주행거리비교하기.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/out/production/Algorithm/현대차/lv2/전광판.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/배열/세로읽기_10798.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Algorithm/배열/세로읽기_10798.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/정렬/수정렬하기_2750.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Algorithm/정렬/수정렬하기_2750.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/정렬/수정렬하기_2751.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Algorithm/정렬/수정렬하기_2751.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/정렬/커트라인_25305.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Algorithm/정렬/커트라인_25305.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/프로그래머스/lv1/숫자문자열과영단어.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Algorithm/프로그래머스/lv1/숫자문자열과영단어.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/프로그래머스/lv1/신규아이디추천.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Algorithm/프로그래머스/lv1/신규아이디추천.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/프로그래머스/lv1/크레인_인형뽑기_게임.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Algorithm/프로그래머스/lv1/크레인_인형뽑기_게임.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/프로그래머스/lv1/키패드누르기.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Algorithm/프로그래머스/lv1/키패드누르기.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/현대차/lv1/근무시간.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Algorithm/HD/lv1/근무시간.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/현대차/lv1/주행거리비교하기.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Algorithm/HD/lv1/주행거리비교하기.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/현대차/lv2/전광판.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Algorithm/HD/lv2/전광판.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringDB/jdbc/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../SpringDB/jdbc/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringDB/jdbc/out/production/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../SpringDB/jdbc/out/production/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Sutdy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Sutdy/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,6 +96,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2FzKxzWSTbPOULmUTtURAmNPXz5" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -141,7 +109,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/Hansol/Desktop/업무/홍민식/JAVA/Spring/SpringDB/jdbc"
+    "last_opened_file_path": "C:/Users/Hansol/Desktop/업무/홍민식/JAVA/Spring/MVC2/exception"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />

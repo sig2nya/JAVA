@@ -1,35 +1,49 @@
 package 프로그래머스.lv1;
 
 public class 키패드누르기 {
-    public static void main(String[] args) {
-        int[] nums = {1, 3, 4, 5, 8, 2, 1, 4, 5, 9, 5};
-        String right = "11", left = "10";
-        String hands = "right";
+    public String solution(int[] numbers, String hand) {
         String answer = "";
-        for(int i = 0; i < nums.length; i++){
-            if(nums[i] == 1 || nums[i] == 4 || nums[i] == 7){
-                left = Integer.toString(nums[i]);
-                answer += "L";
-            } else if(nums[i] == 3 || nums[i] == 6 || nums[i] == 9){
-                right = Integer.toString(nums[i]);
-                answer += "R";
-            } else if(Math.abs(nums[i] - Integer.parseInt(left)) > Math.abs(Integer.parseInt(right) - nums[i])){
-                right = Integer.toString(nums[i]);
-                answer += "R";
-            } else if(Math.abs(nums[i] - Integer.parseInt(left)) < Math.abs(Integer.parseInt(right) - nums[i])){
-                left = Integer.toString(nums[i]);
-                answer += "L";
-            } else if(Math.abs(nums[i] - Integer.parseInt(left)) == Math.abs(Integer.parseInt(right) - nums[i])){
-                if(hands.equals("right")) {
-                    right = Integer.toString(nums[i]);
-                    answer += "R";
-                } else if(hands.equals("left")){
-                    left = Integer.toString(nums[i]);
+        int l = 0, r = 0;
+        boolean check = check(hand);
+
+        for (int i : numbers) {
+            switch (numbers[i]){
+                case 1, 4, 7:
                     answer += "L";
-                }
+                    l = numbers[i];
+                    break;
+                case 3, 6, 9:
+                    answer += "R";
+                    r = numbers[i];
+                    break;
+                default:
+                    if (Math.abs(numbers[i] - l) > Math.abs(numbers[i] - r)) {
+                        answer += "R";
+                        r = numbers[i];
+                    }
+                    else if (Math.abs(numbers[i] - l) < Math.abs(numbers[i] - r)) {
+                        answer += "L";
+                        l = numbers[i];
+                    }
+
+                    if (check) {
+                        answer += "R";
+                        r = numbers[i];
+                    }
+                    else {
+                        answer += "L";
+                        l = numbers[i];
+                    }
+                    break;
             }
-            if(i == 8) System.out.println(left + " " + right);
+
         }
-        System.out.println(answer);
+
+        return answer;
+    }
+
+    public boolean check(String hand) {
+        if (hand.equals("right")) return true;
+        return false;
     }
 }

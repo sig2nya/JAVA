@@ -5,22 +5,54 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fd53b2dd-76bc-4bb4-a8c0-fc862b827105" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../Study/process/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Study/process/ThreadExam.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Algorithm/Algorithm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Algorithm/Algorithm.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Algorithm/NICE정보통신/NO2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Algorithm/공부용/PreOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Algorithm/공부용/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Algorithm/공부용/퀵정렬.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Algorithm/배열/색종이_2653.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Algorithm/수학/세탁소사장동혁_2720.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Algorithm/수학/중앙이동알고리즘_2903.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Algorithm/수학/진법변환2_11005.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Algorithm/약수_배수와_소수/소인수분해_11653.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Algorithm/약수_배수와_소수/약수들의합_9506.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Algorithm/일반수학1/진법변환_2745.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Algorithm/정렬/대표값2_2587.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Algorithm/정렬/수정렬하기_10989.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Algorithm/정렬/좌표정렬하기_11650.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Algorithm/프로그래머스/lv1/개인정보수집유효기간.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Algorithm/프로그래머스/lv1/로또최고순위와최저순위.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Algorithm/프로그래머스/lv1/성격유형검사.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Algorithm/프로그래머스/lv1/성격유형검사하기.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Algorithm/프로그래머스/lv1/실패율.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringDB/jdbc/src/test/java/hello/jdbc/exception/basic/CheckedTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithm/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Algorithm/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../Algorithm/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Algorithm/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Study/JWT/JWT개요.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Study/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Study/Spring/IoC_컨테이너.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Study/Spring/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Study/Spring/의존성주입.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Study/인터페이스/ChangeToNewObject.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Study/인터페이스/NoUseInterfaceA.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Study/인터페이스/NoUseInterfaceB.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Study/인터페이스/UseInterfaceA.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Study/인터페이스/UseInterfaceB.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Study/인터페이스/X.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Study/인터페이스/인터페이스.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithm/out/production/Algorithm/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Algorithm/out/production/Algorithm/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithm/out/production/Algorithm/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Algorithm/out/production/Algorithm/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithm/out/production/Algorithm/배열/세로읽기_10798.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Algorithm/out/production/Algorithm/배열/세로읽기_10798.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithm/out/production/Algorithm/정렬/수정렬하기_2750.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Algorithm/out/production/Algorithm/정렬/수정렬하기_2750.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithm/out/production/Algorithm/정렬/수정렬하기_2751.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Algorithm/out/production/Algorithm/정렬/수정렬하기_2751.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithm/out/production/Algorithm/정렬/커트라인_25305.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Algorithm/out/production/Algorithm/정렬/커트라인_25305.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithm/out/production/Algorithm/프로그래머스/lv1/숫자문자열과영단어.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Algorithm/out/production/Algorithm/프로그래머스/lv1/숫자문자열과영단어.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithm/out/production/Algorithm/프로그래머스/lv1/크레인_인형뽑기_게임.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Algorithm/out/production/Algorithm/프로그래머스/lv1/크레인_인형뽑기_게임.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithm/out/production/Algorithm/프로그래머스/lv1/키패드누르기.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithm/out/production/Algorithm/현대차/lv1/근무시간.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithm/out/production/Algorithm/현대차/lv1/주행거리비교하기.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithm/out/production/Algorithm/현대차/lv2/전광판.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithm/배열/세로읽기_10798.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Algorithm/배열/세로읽기_10798.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithm/정렬/수정렬하기_2750.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Algorithm/정렬/수정렬하기_2750.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithm/정렬/수정렬하기_2751.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Algorithm/정렬/수정렬하기_2751.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithm/정렬/커트라인_25305.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Algorithm/정렬/커트라인_25305.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithm/프로그래머스/lv1/숫자문자열과영단어.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Algorithm/프로그래머스/lv1/숫자문자열과영단어.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithm/프로그래머스/lv1/신규아이디추천.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Algorithm/프로그래머스/lv1/신규아이디추천.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithm/프로그래머스/lv1/크레인_인형뽑기_게임.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Algorithm/프로그래머스/lv1/크레인_인형뽑기_게임.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithm/프로그래머스/lv1/키패드누르기.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Algorithm/프로그래머스/lv1/키패드누르기.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithm/현대차/lv1/근무시간.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Algorithm/HD/lv1/근무시간.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithm/현대차/lv1/주행거리비교하기.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Algorithm/HD/lv1/주행거리비교하기.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Algorithm/현대차/lv2/전광판.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Algorithm/HD/lv2/전광판.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SpringDB/jdbc/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SpringDB/jdbc/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SpringDB/jdbc/out/production/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SpringDB/jdbc/out/production/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Sutdy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Sutdy/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +88,7 @@
     "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/Hansol/Desktop/업무/홍민식/JAVA/Study"
+    "last_opened_file_path": "C:/Users/Hansol/Desktop/업무/홍민식/JAVA/Algorithm"
   }
 }]]></component>
   <component name="RunManager">

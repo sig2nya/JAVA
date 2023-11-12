@@ -5,23 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="993a885c-7001-49ca-99e7-28a8b9340d7d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../Algorithm/배열/세로읽기_10798.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Algorithm/배열/최대값_2566.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Algorithm/배열/행렬덧셈_2738.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hello/jdbc/repository/MemberRepositoryV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hello/jdbc/repository/MemberRepositoryV3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hello/jdbc/service/MemberServiceV1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hello/jdbc/service/MemberServiceV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hello/jdbc/service/MemberServiceV3_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hello/jdbc/service/MemberServiceV3_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hello/jdbc/service/MemberServiceV3_3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/hello/jdbc/service/MemberServiceV1Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/hello/jdbc/service/MemberServiceV2Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/hello/jdbc/service/MemberServiceV3_1Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/hello/jdbc/service/MemberServiceV3_2Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/hello/jdbc/service/MemberServiceV3_3Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/hello/jdbc/service/MemberServiceV3_4Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Algorithm/배열/색종이_2653.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Algorithm/일반수학1/진법변환_2745.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/hello/jdbc/exception/basic/CheckedTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Algorithm/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/out/production/Algorithm/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Algorithm/out/production/Algorithm/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/out/production/Algorithm/배열/세로읽기_10798.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Algorithm/out/production/Algorithm/배열/세로읽기_10798.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/배열/세로읽기_10798.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Algorithm/배열/세로읽기_10798.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Sutdy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Sutdy/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +48,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/Hansol/Desktop/업무/홍민식/JAVA/SpringDB/jdbc",
+    "last_opened_file_path": "C:/Users/Hansol/Desktop/업무/홍민식/JAVA/Algorithm",
     "project.structure.last.edited": "SDKs",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
@@ -68,16 +61,35 @@
       <recent name="hello.jdbc.repository" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MemberServiceV2Test">
-    <configuration name="TCP_Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.TCP_Client" />
-      <module name="jdbc.main" />
+  <component name="RunManager" selected="JUnit.CheckedTest.checked_throw">
+    <configuration name="CheckedTest.checked_catch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jdbc.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.*" />
+          <option name="PATTERN" value="hello.jdbc.exception.basic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="hello.jdbc.exception.basic" />
+      <option name="MAIN_CLASS_NAME" value="hello.jdbc.exception.basic.CheckedTest" />
+      <option name="METHOD_NAME" value="checked_catch" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CheckedTest.checked_throw" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jdbc.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hello.jdbc.exception.basic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hello.jdbc.exception.basic" />
+      <option name="MAIN_CLASS_NAME" value="hello.jdbc.exception.basic.CheckedTest" />
+      <option name="METHOD_NAME" value="checked_throw" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -127,30 +139,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DBConnectionUtilTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="jdbc.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hello.jdbc.connection.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="hello.jdbc.connection" />
-      <option name="MAIN_CLASS_NAME" value="hello.jdbc.connection.DBConnectionUtilTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CheckedTest.checked_throw" />
+        <item itemvalue="JUnit.CheckedTest.checked_catch" />
         <item itemvalue="JUnit.MemberServiceV2Test" />
         <item itemvalue="JUnit.MemberServiceV1Test" />
         <item itemvalue="JUnit.ConnectionTest" />
-        <item itemvalue="TestNG.DBConnectionUtilTest" />
-        <item itemvalue="Application.TCP_Client" />
       </list>
     </recent_temporary>
   </component>
