@@ -10,3 +10,7 @@
 3. Container 가상화
 - 기존 가상화에 비해 더 가벼운 Container를 사용하여 리소스를 더 효율적으로 사용 가능하다.
 <img width="1230" alt="image" src="https://github.com/sig2nya/JAVA/assets/70207093/2b1a2a43-0b9a-47dd-9ee8-894812558849">
+
+4. 12 Factors
+ * 참고 : https://12factor.net/
+
