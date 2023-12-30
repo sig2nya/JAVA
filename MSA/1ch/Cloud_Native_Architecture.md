@@ -1,3 +1,7 @@
+* 출처 : https://aws.amazon.com/ko/what-is/cloud-native/
+<img width="641" alt="image" src="https://github.com/sig2nya/JAVA/assets/70207093/a082a9c4-12a0-4bed-a60f-b69ea37dbdf9">
+
+
 1. 확장 가능한 아키텍처
 - 시스템 수평적 확장에 유연
 - 확장된 서버로 시스템의 부하 분산, 가용성 보장
