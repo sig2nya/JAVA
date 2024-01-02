@@ -1,7 +1,7 @@
 SOA
 ===
  - 정의 : Service Oriented Architecture. 재사용을 통한 비용 절감. 서비스 공유의 최대화.
- - 기술 방식 : 공통의 서비스를 ESB(Service Bus)에 모아 사업 측면에서 공통 서비스 형식으로 제공
+ - 기술 방식 : 공통의 서비스를 ESB(Enterprise Service Bus)에 모아 사업 측면에서 공통 서비스 형식으로 제공
 
 MSA
 ===
