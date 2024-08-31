@@ -5,58 +5,768 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e394e70b-75f2-4238-8bea-7b8f25c0c661" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/NICE정보통신/NO2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/공부용/PreOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/공부용/test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/공부용/퀵정렬.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/배열/색종이_2653.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/수학/세탁소사장동혁_2720.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/수학/중앙이동알고리즘_2903.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/수학/진법변환2_11005.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/약수_배수와_소수/소인수분해_11653.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/약수_배수와_소수/약수들의합_9506.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/일반수학1/진법변환_2745.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/정렬/대표값2_2587.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/정렬/수정렬하기_10989.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/정렬/좌표정렬하기_11650.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/프로그래머스/lv1/개인정보수집유효기간.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/프로그래머스/lv1/로또최고순위와최저순위.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/프로그래머스/lv1/성격유형검사.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/프로그래머스/lv1/실패율.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringDB/jdbc/src/test/java/hello/jdbc/exception/basic/CheckedTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Algorithm/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Algorithm/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/dp/설탕배달_2839.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/dp/설탕배달_2839.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/공부용/AdjArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/공부용/AdjArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/공부용/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/공부용/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/공부용/comparable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/공부용/comparable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/구현/강력한비밀번호_16944.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/구현/강력한비밀번호_16944.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/구현/검증수_2475.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/구현/검증수_2475.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/구현/별찍기3_2440.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/구현/별찍기3_2440.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/구현/별찍기4_2441.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/구현/별찍기4_2441.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/구현/세수_10817.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/구현/세수_10817.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/구현/오늘날짜_10699.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/구현/오늘날짜_10699.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/그래프/DFS.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/그래프/DFS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/그래프/DFS_BFS_1260.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/그래프/DFS_BFS_1260.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/그래프/바이러스_2606.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/그래프/바이러스_2606.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/그래프/섬의개수_4963.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/그래프/섬의개수_4963.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/그래프/연결요소의개수_11724.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/그래프/연결요소의개수_11724.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/그래프/유기농배추_1012.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/그래프/유기농배추_1012.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/기본입출력/A더하기B.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/기본입출력/A더하기B.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/기본입출력/A더하기B2_2558.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/기본입출력/A더하기B2_2558.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/기본입출력/A빼기B.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/기본입출력/A빼기B.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/기본입출력/MS로고_5338.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/기본입출력/MS로고_5338.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/기본입출력/새싹_25083.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/기본입출력/새싹_25083.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/누적합/구간합구하기4_11659.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/누적합/구간합구하기4_11659.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/동적계획법/다리놓기_1010.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/동적계획법/다리놓기_1010.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/동적계획법/돌게임5_9659.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/동적계획법/돌게임5_9659.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/동적계획법/이항계수2_11051.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/동적계획법/이항계수2_11051.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/동적계획법/타일채우기_2133.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/동적계획법/타일채우기_2133.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/동적계획법/피보나치_1003.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/동적계획법/피보나치_1003.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/문자열/JAVAvsCPP.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/문자열/JAVAvsCPP.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/문자열/SHA_256_10930.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/문자열/SHA_256_10930.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/문자열/SortInside_1427.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/문자열/SortInside_1427.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/문자열/StudyingAlpha_1157.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/문자열/StudyingAlpha_1157.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/문자열/Studying_Words_1157.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/문자열/Studying_Words_1157.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/문자열/SumofNum_11720.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/문자열/SumofNum_11720.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/문자열/SunlinSong_21964.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/문자열/SunlinSong_21964.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/문자열/Ten_11721.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/문자열/Ten_11721.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/문자열/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/문자열/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/문자열/Warning_3029.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/문자열/Warning_3029.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/문자열/WhiteBlock_1100.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/문자열/WhiteBlock_1100.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/문자열/Youngil_20540.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/문자열/Youngil_20540.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/문자열/그대로_출력하기_11719.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/문자열/그대로_출력하기_11719.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/문자열/그룹단어체커_1316.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/문자열/그룹단어체커_1316.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/문자열/다이얼_5622.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/문자열/다이얼_5622.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/문자열/단어의길이_2743.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/문자열/단어의길이_2743.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/문자열/단어의수_1152.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/문자열/단어의수_1152.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/문자열/단어정렬_1181$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/문자열/단어정렬_1181$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/문자열/단어정렬_1181.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/문자열/단어정렬_1181.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/문자열/대소문자바꾸기_2744.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/문자열/대소문자바꾸기_2744.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/문자열/덧셈_10953.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/문자열/덧셈_10953.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/문자열/동등함_13985.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/문자열/동등함_13985.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/문자열/듣보잡_1764.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/문자열/듣보잡_1764.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/문자열/등급_2754.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/문자열/등급_2754.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/문자열/문자열의연속_2675.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/문자열/문자열의연속_2675.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/문자열/문자와문자열_27866.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/문자열/문자와문자열_27866.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/문자열/밀비급일_11365.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/문자열/밀비급일_11365.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/문자열/박사과정_5026.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/문자열/박사과정_5026.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/문자열/브라켓_9012.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/문자열/브라켓_9012.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/문자열/상수_2908.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/문자열/상수_2908.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/문자열/생일_5635.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/문자열/생일_5635.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/문자열/숫자30_10610.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/문자열/숫자30_10610.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/문자열/아스키코드_11654.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/문자열/아스키코드_11654.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/문자열/알파벳갯수_10808.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/문자열/알파벳갯수_10808.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/문자열/알파벳찾기_10809.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/문자열/알파벳찾기_10809.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/문자열/오타맨고창영_2711.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/문자열/오타맨고창영_2711.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/문자열/원피스_12780.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/문자열/원피스_12780.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/문자열/이문제는D2입니다_23303.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/문자열/이문제는D2입니다_23303.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/문자열/잃어버린괄호_1541.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/문자열/잃어버린괄호_1541.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/문자열/자바바이트코드.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/문자열/자바바이트코드.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/문자열/창영_3028.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/문자열/창영_3028.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/문자열/크로아티아알파벳_2941.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/문자열/크로아티아알파벳_2941.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/문자열/팰린드롬_20944.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/문자열/팰린드롬_20944.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/문자열/피카츄_14405.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/문자열/피카츄_14405.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/반복문/영수증_25304.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/반복문/영수증_25304.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/반복문/코딩은_체육과목_25314.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/반복문/코딩은_체육과목_25314.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Algorithm/배열/세로읽기_10798.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/배열/세로읽기_10798.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/배열/최대값_2566.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/배열/최대값_2566.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/배열/행렬덧셈_2738.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/배열/행렬덧셈_2738.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/분할정복/Chicken_TOP_N_11582.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/분할정복/Chicken_TOP_N_11582.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/분할정복/MakingPaper_2630.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/분할정복/MakingPaper_2630.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/브루트포스/덩치_7568.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/브루트포스/덩치_7568.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/브루트포스/분해합_2231.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/브루트포스/분해합_2231.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/브루트포스/블랙잭_2798.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/브루트포스/블랙잭_2798.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/브루트포스/약수구하기_2501.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/브루트포스/약수구하기_2501.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/브루트포스/영화감독숌_1436.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/브루트포스/영화감독숌_1436.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/빽트래킹/N과M1_15649.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/빽트래킹/N과M1_15649.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/빽트래킹/N과M2_15650.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/빽트래킹/N과M2_15650.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/수학/AVG_1546.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/수학/AVG_1546.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/수학/FindPrimeNums_1978.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/수학/FindPrimeNums_1978.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/수학/Maximum_2562.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/수학/Maximum_2562.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/수학/NumOfNum_2577.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/수학/NumOfNum_2577.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/수학/OXQuiz_8958.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/수학/OXQuiz_8958.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/수학/OvenClock_2525.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/수학/OvenClock_2525.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/수학/OverAvg_4344.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/수학/OverAvg_4344.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/수학/PrimeNums_2581.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/수학/PrimeNums_2581.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/수학/ProductsMatrix_2740.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/수학/ProductsMatrix_2740.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/수학/Remainer_3052.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/수학/Remainer_3052.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/수학/SnailWannaGoUp_2869.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/수학/SnailWannaGoUp_2869.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/수학/ThreeDice_2480.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/수학/ThreeDice_2480.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/수학/곱셈_1629.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/수학/곱셈_1629.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/수학/소인수분해_11653.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/수학/소인수분해_11653.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/수학/큰수_10757.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/수학/큰수_10757.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/스택/STACK.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/스택/STACK.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/스택/ZERO_10773.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/스택/ZERO_10773.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/스택/괄호_9012.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/스택/괄호_9012.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/스택/균형잡힌세상_4949.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/스택/균형잡힌세상_4949.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/심화1/그룹단어체커_1316.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/심화1/그룹단어체커_1316.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/심화1/별찍기7_2444.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/심화1/별찍기7_2444.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/이분탐색/CD_4158.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/이분탐색/CD_4158.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/이분탐색/수찾기_1920.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/이분탐색/수찾기_1920.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/이분탐색/숫자카드_10815.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/이분탐색/숫자카드_10815.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/이분탐색/이진탐색.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/이분탐색/이진탐색.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/이분탐색/제곱근_13706.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/이분탐색/제곱근_13706.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/자료구조/Queue_10845.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/자료구조/Queue_10845.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/자료구조/Stack_10828.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/자료구조/Stack_10828.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/자료구조/Zero_10773.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/자료구조/Zero_10773.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/재귀/곱셈3_1769.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/재귀/곱셈3_1769.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/재귀/별찍기_2447.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/재귀/별찍기_2447.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/재귀/재귀함수가뭔가요_17478.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/재귀/재귀함수가뭔가요_17478.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/재귀/칸토어_4779.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/재귀/칸토어_4779.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/재귀/팩토리얼_10872.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/재귀/팩토리얼_10872.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/재귀/피보나치_10870.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/재귀/피보나치_10870.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/재귀/하노이탑_이동순서_11729.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/재귀/하노이탑_이동순서_11729.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/정렬/바구니_뒤집기_10811.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/정렬/바구니_뒤집기_10811.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Algorithm/정렬/수정렬하기_2750.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/정렬/수정렬하기_2750.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Algorithm/정렬/수정렬하기_2751.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/정렬/수정렬하기_2751.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Algorithm/정렬/커트라인_25305.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/정렬/커트라인_25305.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/정렬/퀵정렬.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/정렬/퀵정렬.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/정수론_조합론/LCM_1934.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/정수론_조합론/LCM_1934.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/정수론_조합론/Ring_3036.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/정수론_조합론/Ring_3036.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/정수론_조합론/배수와약수_5086.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/정수론_조합론/배수와약수_5086.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/정수론_조합론/약수_1037.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/정수론_조합론/약수_1037.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/조건문/두수비교하기_1330.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/조건문/두수비교하기_1330.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/조건문/사분면고르기_14681.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/조건문/사분면고르기_14681.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/조건문/알람시계_2884.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/조건문/알람시계_2884.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/조건문/오븐시계_2525.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/조건문/오븐시계_2525.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/클래스/Stringbuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/클래스/Stringbuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/프로그래머스/lv1/K번째수.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/프로그래머스/lv1/K번째수.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/프로그래머스/lv1/Lottery.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/프로그래머스/lv1/Lottery.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/프로그래머스/lv1/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/프로그래머스/lv1/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/프로그래머스/lv1/나머지가1이되는수.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/프로그래머스/lv1/나머지가1이되는수.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/프로그래머스/lv1/소수만들기.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/프로그래머스/lv1/소수만들기.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Algorithm/프로그래머스/lv1/숫자문자열과영단어.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/프로그래머스/lv1/숫자문자열과영단어.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/프로그래머스/lv1/신고결과받기.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/프로그래머스/lv1/신고결과받기.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/프로그래머스/lv1/신규아이디추천.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/프로그래머스/lv1/신규아이디추천.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/프로그래머스/lv1/없는숫자더하기.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/프로그래머스/lv1/없는숫자더하기.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/프로그래머스/lv1/완주하지못한선수.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/프로그래머스/lv1/완주하지못한선수.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/프로그래머스/lv1/음양더하기.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/프로그래머스/lv1/음양더하기.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/프로그래머스/lv1/이상한문자열만들기.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/프로그래머스/lv1/이상한문자열만들기.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Algorithm/프로그래머스/lv1/크레인_인형뽑기_게임.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/프로그래머스/lv1/크레인_인형뽑기_게임.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/프로그래머스/lv1/키패드누르기.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/현대차/lv1/근무시간.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/현대차/lv1/주행거리비교하기.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/현대차/lv2/전광판.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/배열/세로읽기_10798.java" beforeDir="false" afterPath="$PROJECT_DIR$/배열/세로읽기_10798.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/정렬/수정렬하기_2750.java" beforeDir="false" afterPath="$PROJECT_DIR$/정렬/수정렬하기_2750.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/정렬/수정렬하기_2751.java" beforeDir="false" afterPath="$PROJECT_DIR$/정렬/수정렬하기_2751.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/정렬/커트라인_25305.java" beforeDir="false" afterPath="$PROJECT_DIR$/정렬/커트라인_25305.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/프로그래머스/lv1/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/프로그래머스/lv1/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/프로그래머스/lv1/숫자문자열과영단어.java" beforeDir="false" afterPath="$PROJECT_DIR$/프로그래머스/lv1/숫자문자열과영단어.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/프로그래머스/lv1/신규아이디추천.java" beforeDir="false" afterPath="$PROJECT_DIR$/프로그래머스/lv1/신규아이디추천.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/프로그래머스/lv1/크레인_인형뽑기_게임.java" beforeDir="false" afterPath="$PROJECT_DIR$/프로그래머스/lv1/크레인_인형뽑기_게임.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/프로그래머스/lv1/키패드누르기.java" beforeDir="false" afterPath="$PROJECT_DIR$/프로그래머스/lv1/키패드누르기.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/현대차/lv1/근무시간.java" beforeDir="false" afterPath="$PROJECT_DIR$/HD/lv1/근무시간.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/현대차/lv1/주행거리비교하기.java" beforeDir="false" afterPath="$PROJECT_DIR$/HD/lv1/주행거리비교하기.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/현대차/lv2/전광판.java" beforeDir="false" afterPath="$PROJECT_DIR$/HD/lv2/전광판.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring/MVC2/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/MVC2/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring/MVC2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/MVC2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring/MVC2/exception/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/MVC2/exception/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring/MVC2/exception/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/MVC2/exception/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringDB/jdbc/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringDB/jdbc/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringDB/jdbc/out/production/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringDB/jdbc/out/production/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sutdy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Sutdy/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/프로그래머스/lv1/튜플.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/프로그래머스/lv1/튜플.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/함수/Hansu_1065.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/함수/Hansu_1065.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/MVC1/servlet/.gradle/7.5.1/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/MVC1/servlet/.gradle/7.5.1/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/MVC1/servlet/.gradle/7.5.1/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/MVC1/servlet/.gradle/7.5.1/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/MVC1/servlet/.gradle/7.5.1/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/MVC1/servlet/.gradle/7.5.1/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/MVC1/servlet/.gradle/7.5.1/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/MVC1/servlet/.gradle/7.5.1/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/MVC1/servlet/.gradle/7.5.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/MVC1/servlet/.gradle/7.5.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/MVC1/servlet/.gradle/7.5.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/MVC1/servlet/.gradle/7.5.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/MVC1/servlet/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/MVC1/servlet/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/MVC2/exception/.gradle/7.5/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/MVC2/exception/.gradle/7.5/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/MVC2/exception/.gradle/7.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/MVC2/exception/.gradle/7.5/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/MVC2/thymeleaf-basic/.gradle/7.5.1/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/MVC2/thymeleaf-basic/.gradle/7.5.1/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/MVC2/thymeleaf-basic/.gradle/7.5.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/MVC2/thymeleaf-basic/.gradle/7.5.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/MVC2/upload/.gradle/7.5.1/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/MVC2/upload/.gradle/7.5.1/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/MVC2/upload/.gradle/7.5.1/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/MVC2/upload/.gradle/7.5.1/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/MVC2/upload/.gradle/7.5.1/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/MVC2/upload/.gradle/7.5.1/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/MVC2/upload/.gradle/7.5.1/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/MVC2/upload/.gradle/7.5.1/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/MVC2/upload/.gradle/7.5.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/MVC2/upload/.gradle/7.5.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/MVC2/upload/.gradle/7.5.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/MVC2/upload/.gradle/7.5.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/MVC2/upload/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/MVC2/upload/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/SpringDB/jdbc/.gradle/7.4.1/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/SpringDB/jdbc/.gradle/7.4.1/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/SpringDB/jdbc/.gradle/7.4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/SpringDB/jdbc/.gradle/7.4.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/SpringSecurity/.gradle/7.5/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/SpringSecurity/.gradle/7.5/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/SpringSecurity/.gradle/7.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/SpringSecurity/.gradle/7.5/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringDB/jdbc/.gradle/7.6.1/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringDB/jdbc/.gradle/7.6.1/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringDB/jdbc/.gradle/7.6.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringDB/jdbc/.gradle/7.6.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/SpringDB/0. 스프링 DB 1편 - 데이터 접근 핵심 원리 v2022-11-28.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/SpringDB/1. JDBC 이해.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/SpringDB/2. 커넥션풀과 데이터소스 이해.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/SpringDB/3. 트랜잭션 이해.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/SpringDB/4. 스프링과 문제 해결 - 트랜잭션.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/SpringDB/5. 자바 예외 이해.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/SpringDB/6. 스프링과 문제 해결 - 예외 처리, 반복.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/SpringDB/7. 다음으로.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/exception/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/exception/.gradle/7.0.2/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/exception/.gradle/7.0.2/dependencies-accessors/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/exception/.gradle/7.0.2/executionHistory/executionHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/exception/.gradle/7.0.2/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/exception/.gradle/7.0.2/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/exception/.gradle/7.0.2/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/exception/.gradle/7.0.2/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/exception/.gradle/7.0.2/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/exception/.gradle/7.0.2/javaCompile/classAnalysis.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/exception/.gradle/7.0.2/javaCompile/javaCompile.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/exception/.gradle/7.0.2/javaCompile/taskHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/exception/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/exception/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/exception/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/exception/.gradle/checksums/checksums.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/exception/.gradle/checksums/md5-checksums.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/exception/.gradle/checksums/sha1-checksums.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/exception/.gradle/vcs-1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/exception/HELP.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/exception/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/exception/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/exception/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/exception/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/exception/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/exception/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/exception/src/main/java/hello/exception/ExceptionApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/exception/src/main/java/hello/exception/WebConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/exception/src/main/java/hello/exception/WebServerCustomizer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/exception/src/main/java/hello/exception/api/ApiExceptionController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/exception/src/main/java/hello/exception/api/ApiExceptionV2Controller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/exception/src/main/java/hello/exception/api/ApiExceptionV3Controller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/exception/src/main/java/hello/exception/exception/BadRequestException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/exception/src/main/java/hello/exception/exception/UserException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/exception/src/main/java/hello/exception/exhandler/ErrorResult.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/exception/src/main/java/hello/exception/exhandler/advice/ExControllerAdvice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/exception/src/main/java/hello/exception/filter/LogFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/exception/src/main/java/hello/exception/interceptor/LogInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/exception/src/main/java/hello/exception/resolver/MyHandlerExceptionResolver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/exception/src/main/java/hello/exception/resolver/UserHandlerExceptionResolver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/exception/src/main/java/hello/exception/servlet/ErrorPageController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/exception/src/main/java/hello/exception/servlet/ServletExController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/exception/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/exception/src/main/resources/messages.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/exception/src/main/resources/templates/error-page/404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/exception/src/main/resources/templates/error-page/500.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/exception/src/main/resources/templates/error/404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/exception/src/main/resources/templates/error/4xx.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/exception/src/main/resources/templates/error/500.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/exception/src/test/java/hello/exception/ExceptionApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/form-start/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/form-start/.gradle/6.8.2/executionHistory/executionHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/form-start/.gradle/6.8.2/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/form-start/.gradle/6.8.2/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/form-start/.gradle/6.8.2/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/form-start/.gradle/6.8.2/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/form-start/.gradle/6.8.2/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/form-start/.gradle/6.8.2/javaCompile/javaCompile.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/form-start/.gradle/6.8.2/javaCompile/taskHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/form-start/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/form-start/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/form-start/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/form-start/.gradle/checksums/checksums.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/form-start/.gradle/configuration-cache/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/form-start/.gradle/vcs-1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/form-start/HELP.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/form-start/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/form-start/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/form-start/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/form-start/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/form-start/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/form-start/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/form-start/src/main/java/hello/itemservice/ItemServiceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/form-start/src/main/java/hello/itemservice/TestDataInit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/form-start/src/main/java/hello/itemservice/domain/item/Item.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/form-start/src/main/java/hello/itemservice/domain/item/ItemRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/form-start/src/main/java/hello/itemservice/web/form/FormItemController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/form-start/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/form-start/src/main/resources/static/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/form-start/src/main/resources/static/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/form-start/src/main/resources/templates/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/form-start/src/main/resources/templates/form/addForm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/form-start/src/main/resources/templates/form/editForm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/form-start/src/main/resources/templates/form/item.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/form-start/src/main/resources/templates/form/items.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/form-start/src/test/java/hello/itemservice/ItemServiceApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/form-start/src/test/java/hello/itemservice/domain/item/ItemRepositoryTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/form/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/form/.gradle/6.8.2/executionHistory/executionHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/form/.gradle/6.8.2/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/form/.gradle/6.8.2/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/form/.gradle/6.8.2/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/form/.gradle/6.8.2/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/form/.gradle/6.8.2/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/form/.gradle/6.8.2/javaCompile/classAnalysis.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/form/.gradle/6.8.2/javaCompile/javaCompile.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/form/.gradle/6.8.2/javaCompile/taskHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/form/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/form/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/form/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/form/.gradle/checksums/checksums.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/form/.gradle/configuration-cache/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/form/.gradle/vcs-1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/form/HELP.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/form/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/form/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/form/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/form/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/form/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/form/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/form/src/main/java/hello/itemservice/ItemServiceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/form/src/main/java/hello/itemservice/TestDataInit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/form/src/main/java/hello/itemservice/domain/item/DeliveryCode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/form/src/main/java/hello/itemservice/domain/item/Item.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/form/src/main/java/hello/itemservice/domain/item/ItemRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/form/src/main/java/hello/itemservice/domain/item/ItemType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/form/src/main/java/hello/itemservice/web/form/FormItemController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/form/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/form/src/main/resources/static/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/form/src/main/resources/static/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/form/src/main/resources/templates/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/form/src/main/resources/templates/form/addForm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/form/src/main/resources/templates/form/editForm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/form/src/main/resources/templates/form/item.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/form/src/main/resources/templates/form/items.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/form/src/test/java/hello/itemservice/ItemServiceApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/form/src/test/java/hello/itemservice/domain/item/ItemRepositoryTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/login-start/.gradle/6.8.2/executionHistory/executionHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/login-start/.gradle/6.8.2/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/login-start/.gradle/6.8.2/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/login-start/.gradle/6.8.2/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/login-start/.gradle/6.8.2/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/login-start/.gradle/6.8.2/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/login-start/.gradle/6.8.2/javaCompile/javaCompile.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/login-start/.gradle/6.8.2/javaCompile/taskHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/login-start/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/login-start/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/login-start/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/login-start/.gradle/checksums/checksums.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/login-start/.gradle/configuration-cache/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/login-start/.gradle/vcs-1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/login-start/src/main/java/hello/login/ItemServiceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/login-start/src/main/java/hello/login/TestDataInit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/login-start/src/main/java/hello/login/domain/item/Item.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/login-start/src/main/java/hello/login/domain/item/ItemRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/login-start/src/main/java/hello/login/domain/item/SaveCheck.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/login-start/src/main/java/hello/login/domain/item/UpdateCheck.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/login-start/src/main/java/hello/login/web/HomeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/login-start/src/main/java/hello/login/web/item/ItemController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/login-start/src/main/java/hello/login/web/item/form/ItemSaveForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/login-start/src/main/java/hello/login/web/item/form/ItemUpdateForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/login-start/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/login-start/src/main/resources/errors.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/login-start/src/main/resources/messages.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/login-start/src/main/resources/messages_en.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/login-start/src/main/resources/static/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/login-start/src/main/resources/templates/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/login-start/src/main/resources/templates/items/addForm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/login-start/src/main/resources/templates/items/editForm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/login-start/src/main/resources/templates/items/item.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/login-start/src/main/resources/templates/items/items.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/login-start/src/test/java/hello/login/ItemServiceApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/login-start/src/test/java/hello/login/domain/item/ItemRepositoryTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/login-start/src/test/java/hello/login/message/MessageSourceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/login-start/src/test/java/hello/login/validation/BeanValidationTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/login-start/src/test/java/hello/login/validation/MessageCodesResolverTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/login/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/login/.gradle/6.8.2/executionHistory/executionHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/login/.gradle/6.8.2/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/login/.gradle/6.8.2/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/login/.gradle/6.8.2/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/login/.gradle/6.8.2/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/login/.gradle/6.8.2/fileHashes/resourceHashesCache.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/login/.gradle/6.8.2/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/login/.gradle/6.8.2/javaCompile/classAnalysis.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/login/.gradle/6.8.2/javaCompile/jarAnalysis.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/login/.gradle/6.8.2/javaCompile/javaCompile.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/login/.gradle/6.8.2/javaCompile/taskHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/login/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/login/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/login/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/login/.gradle/checksums/checksums.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/login/.gradle/configuration-cache/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/login/.gradle/vcs-1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/login/HELP.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/login/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/login/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/login/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/login/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/login/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/login/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/login/src/main/java/hello/login/ItemServiceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/login/src/main/java/hello/login/TestDataInit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/login/src/main/java/hello/login/WebConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/login/src/main/java/hello/login/domain/item/Item.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/login/src/main/java/hello/login/domain/item/ItemRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/login/src/main/java/hello/login/domain/item/SaveCheck.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/login/src/main/java/hello/login/domain/item/UpdateCheck.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/login/src/main/java/hello/login/domain/login/LoginService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/login/src/main/java/hello/login/domain/member/Member.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/login/src/main/java/hello/login/domain/member/MemberRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/login/src/main/java/hello/login/web/HomeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/login/src/main/java/hello/login/web/SessionConst.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/login/src/main/java/hello/login/web/argumentresolver/Login.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/login/src/main/java/hello/login/web/argumentresolver/LoginMemberArgumentResolver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/login/src/main/java/hello/login/web/filter/LogFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/login/src/main/java/hello/login/web/filter/LoginCheckFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/login/src/main/java/hello/login/web/interceptor/LogInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/login/src/main/java/hello/login/web/interceptor/LoginCheckInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/login/src/main/java/hello/login/web/item/ItemController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/login/src/main/java/hello/login/web/item/form/ItemSaveForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/login/src/main/java/hello/login/web/item/form/ItemUpdateForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/login/src/main/java/hello/login/web/login/LoginController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/login/src/main/java/hello/login/web/login/LoginForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/login/src/main/java/hello/login/web/member/MemberController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/login/src/main/java/hello/login/web/session/SessionInfoController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/login/src/main/java/hello/login/web/session/SessionManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/login/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/login/src/main/resources/errors.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/login/src/main/resources/messages.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/login/src/main/resources/messages_en.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/login/src/main/resources/static/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/login/src/main/resources/templates/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/login/src/main/resources/templates/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/login/src/main/resources/templates/items/addForm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/login/src/main/resources/templates/items/editForm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/login/src/main/resources/templates/items/item.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/login/src/main/resources/templates/items/items.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/login/src/main/resources/templates/login/loginForm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/login/src/main/resources/templates/loginHome.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/login/src/main/resources/templates/members/addMemberForm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/login/src/test/java/hello/login/ItemServiceApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/login/src/test/java/hello/login/domain/item/ItemRepositoryTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/login/src/test/java/hello/login/message/MessageSourceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/login/src/test/java/hello/login/validation/BeanValidationTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/login/src/test/java/hello/login/validation/MessageCodesResolverTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/login/src/test/java/hello/login/web/session/SessionManagerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/message-start/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/message-start/.gradle/6.8.2/executionHistory/executionHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/message-start/.gradle/6.8.2/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/message-start/.gradle/6.8.2/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/message-start/.gradle/6.8.2/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/message-start/.gradle/6.8.2/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/message-start/.gradle/6.8.2/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/message-start/.gradle/6.8.2/javaCompile/javaCompile.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/message-start/.gradle/6.8.2/javaCompile/taskHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/message-start/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/message-start/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/message-start/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/message-start/.gradle/checksums/checksums.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/message-start/.gradle/configuration-cache/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/message-start/.gradle/vcs-1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/message-start/HELP.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/message-start/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/message-start/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/message-start/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/message-start/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/message-start/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/message-start/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/message-start/src/main/java/hello/itemservice/ItemServiceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/message-start/src/main/java/hello/itemservice/TestDataInit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/message-start/src/main/java/hello/itemservice/domain/item/Item.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/message-start/src/main/java/hello/itemservice/domain/item/ItemRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/message-start/src/main/java/hello/itemservice/web/message/MessageItemController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/message-start/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/message-start/src/main/resources/static/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/message-start/src/main/resources/static/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/message-start/src/main/resources/templates/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/message-start/src/main/resources/templates/message/addForm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/message-start/src/main/resources/templates/message/editForm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/message-start/src/main/resources/templates/message/item.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/message-start/src/main/resources/templates/message/items.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/message-start/src/test/java/hello/itemservice/ItemServiceApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/message-start/src/test/java/hello/itemservice/domain/item/ItemRepositoryTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/message/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/message/.gradle/6.8.2/executionHistory/executionHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/message/.gradle/6.8.2/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/message/.gradle/6.8.2/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/message/.gradle/6.8.2/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/message/.gradle/6.8.2/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/message/.gradle/6.8.2/fileHashes/resourceHashesCache.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/message/.gradle/6.8.2/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/message/.gradle/6.8.2/javaCompile/classAnalysis.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/message/.gradle/6.8.2/javaCompile/jarAnalysis.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/message/.gradle/6.8.2/javaCompile/javaCompile.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/message/.gradle/6.8.2/javaCompile/taskHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/message/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/message/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/message/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/message/.gradle/checksums/checksums.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/message/.gradle/configuration-cache/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/message/.gradle/vcs-1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/message/HELP.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/message/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/message/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/message/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/message/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/message/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/message/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/message/src/main/java/hello/itemservice/ItemServiceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/message/src/main/java/hello/itemservice/TestDataInit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/message/src/main/java/hello/itemservice/domain/item/Item.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/message/src/main/java/hello/itemservice/domain/item/ItemRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/message/src/main/java/hello/itemservice/web/message/MessageItemController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/message/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/message/src/main/resources/messages.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/message/src/main/resources/messages_en.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/message/src/main/resources/static/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/message/src/main/resources/static/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/message/src/main/resources/templates/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/message/src/main/resources/templates/message/addForm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/message/src/main/resources/templates/message/editForm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/message/src/main/resources/templates/message/item.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/message/src/main/resources/templates/message/items.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/message/src/test/java/hello/itemservice/ItemServiceApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/message/src/test/java/hello/itemservice/domain/item/ItemRepositoryTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/message/src/test/java/hello/itemservice/message/MessageSourceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/thymeleaf-basic/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/thymeleaf-basic/.gradle/7.0.2/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/thymeleaf-basic/.gradle/7.0.2/dependencies-accessors/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/thymeleaf-basic/.gradle/7.0.2/executionHistory/executionHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/thymeleaf-basic/.gradle/7.0.2/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/thymeleaf-basic/.gradle/7.0.2/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/thymeleaf-basic/.gradle/7.0.2/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/thymeleaf-basic/.gradle/7.0.2/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/thymeleaf-basic/.gradle/7.0.2/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/thymeleaf-basic/.gradle/7.0.2/javaCompile/javaCompile.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/thymeleaf-basic/.gradle/7.0.2/javaCompile/taskHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/thymeleaf-basic/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/thymeleaf-basic/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/thymeleaf-basic/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/thymeleaf-basic/.gradle/checksums/checksums.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/thymeleaf-basic/.gradle/vcs-1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/thymeleaf-basic/HELP.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/thymeleaf-basic/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/thymeleaf-basic/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/thymeleaf-basic/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/thymeleaf-basic/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/thymeleaf-basic/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/thymeleaf-basic/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/thymeleaf-basic/src/main/java/hello/thymeleaf/ThymeleafBasicApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/thymeleaf-basic/src/main/java/hello/thymeleaf/basic/BasicController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/thymeleaf-basic/src/main/java/hello/thymeleaf/basic/TemplateController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/thymeleaf-basic/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/thymeleaf-basic/src/main/resources/static/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/thymeleaf-basic/src/main/resources/templates/basic/attribute.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/thymeleaf-basic/src/main/resources/templates/basic/basic-objects.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/thymeleaf-basic/src/main/resources/templates/basic/block.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/thymeleaf-basic/src/main/resources/templates/basic/comments.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/thymeleaf-basic/src/main/resources/templates/basic/condition.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/thymeleaf-basic/src/main/resources/templates/basic/date.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/thymeleaf-basic/src/main/resources/templates/basic/each.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/thymeleaf-basic/src/main/resources/templates/basic/javascript.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/thymeleaf-basic/src/main/resources/templates/basic/link.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/thymeleaf-basic/src/main/resources/templates/basic/literal.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/thymeleaf-basic/src/main/resources/templates/basic/operation.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/thymeleaf-basic/src/main/resources/templates/basic/text-basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/thymeleaf-basic/src/main/resources/templates/basic/text-unescaped.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/thymeleaf-basic/src/main/resources/templates/basic/variable.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/thymeleaf-basic/src/main/resources/templates/template/fragment/footer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/thymeleaf-basic/src/main/resources/templates/template/fragment/fragmentMain.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/thymeleaf-basic/src/main/resources/templates/template/layout/base.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/thymeleaf-basic/src/main/resources/templates/template/layout/layoutMain.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/thymeleaf-basic/src/main/resources/templates/template/layoutExtend/layoutExtendMain.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/thymeleaf-basic/src/main/resources/templates/template/layoutExtend/layoutFile.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/thymeleaf-basic/src/test/java/hello/thymeleaf/ThymeleafBasicApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/typeconverter/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/typeconverter/.gradle/7.0.2/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/typeconverter/.gradle/7.0.2/dependencies-accessors/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/typeconverter/.gradle/7.0.2/executionHistory/executionHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/typeconverter/.gradle/7.0.2/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/typeconverter/.gradle/7.0.2/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/typeconverter/.gradle/7.0.2/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/typeconverter/.gradle/7.0.2/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/typeconverter/.gradle/7.0.2/fileHashes/resourceHashesCache.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/typeconverter/.gradle/7.0.2/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/typeconverter/.gradle/7.0.2/javaCompile/classAnalysis.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/typeconverter/.gradle/7.0.2/javaCompile/jarAnalysis.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/typeconverter/.gradle/7.0.2/javaCompile/javaCompile.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/typeconverter/.gradle/7.0.2/javaCompile/taskHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/typeconverter/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/typeconverter/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/typeconverter/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/typeconverter/.gradle/checksums/checksums.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/typeconverter/.gradle/vcs-1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/typeconverter/HELP.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/typeconverter/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/typeconverter/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/typeconverter/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/typeconverter/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/typeconverter/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/typeconverter/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/typeconverter/src/main/java/hello/typeconverter/TypeconverterApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/typeconverter/src/main/java/hello/typeconverter/WebConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/typeconverter/src/main/java/hello/typeconverter/controller/ConverterController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/typeconverter/src/main/java/hello/typeconverter/controller/FormatterController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/typeconverter/src/main/java/hello/typeconverter/controller/HelloController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/typeconverter/src/main/java/hello/typeconverter/converter/IntegerToStringConverter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/typeconverter/src/main/java/hello/typeconverter/converter/IpPortToStringConverter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/typeconverter/src/main/java/hello/typeconverter/converter/StringToIntegerConverter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/typeconverter/src/main/java/hello/typeconverter/converter/StringToIpPortConverter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/typeconverter/src/main/java/hello/typeconverter/formatter/MyNumberFormatter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/typeconverter/src/main/java/hello/typeconverter/type/IpPort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/typeconverter/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/typeconverter/src/main/resources/templates/converter-form.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/typeconverter/src/main/resources/templates/converter-view.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/typeconverter/src/main/resources/templates/formatter-form.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/typeconverter/src/main/resources/templates/formatter-view.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/typeconverter/src/test/java/hello/typeconverter/TypeconverterApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/typeconverter/src/test/java/hello/typeconverter/converter/ConversionServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/typeconverter/src/test/java/hello/typeconverter/converter/ConverterTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/typeconverter/src/test/java/hello/typeconverter/formatter/FormattingConversionServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/typeconverter/src/test/java/hello/typeconverter/formatter/MyNumberFormatterTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/upload/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/upload/.gradle/7.0.2/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/upload/.gradle/7.0.2/dependencies-accessors/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/upload/.gradle/7.0.2/executionHistory/executionHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/upload/.gradle/7.0.2/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/upload/.gradle/7.0.2/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/upload/.gradle/7.0.2/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/upload/.gradle/7.0.2/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/upload/.gradle/7.0.2/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/upload/.gradle/7.0.2/javaCompile/classAnalysis.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/upload/.gradle/7.0.2/javaCompile/javaCompile.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/upload/.gradle/7.0.2/javaCompile/taskHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/upload/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/upload/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/upload/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/upload/.gradle/checksums/checksums.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/upload/.gradle/vcs-1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/upload/HELP.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/upload/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/upload/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/upload/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/upload/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/upload/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/upload/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/upload/src/main/java/hello/upload/UploadApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/upload/src/main/java/hello/upload/controller/ItemController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/upload/src/main/java/hello/upload/controller/ItemForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/upload/src/main/java/hello/upload/controller/ServletUploadControllerV1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/upload/src/main/java/hello/upload/controller/ServletUploadControllerV2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/upload/src/main/java/hello/upload/controller/SpringUploadController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/upload/src/main/java/hello/upload/domain/Item.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/upload/src/main/java/hello/upload/domain/ItemRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/upload/src/main/java/hello/upload/domain/UploadFile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/upload/src/main/java/hello/upload/file/FileStore.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/upload/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/upload/src/main/resources/static/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/upload/src/main/resources/templates/item-form.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/upload/src/main/resources/templates/item-view.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/upload/src/main/resources/templates/upload-form.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/upload/src/test/java/hello/upload/UploadApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/validation-start/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/validation-start/.gradle/6.8.2/executionHistory/executionHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/validation-start/.gradle/6.8.2/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/validation-start/.gradle/6.8.2/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/validation-start/.gradle/6.8.2/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/validation-start/.gradle/6.8.2/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/validation-start/.gradle/6.8.2/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/validation-start/.gradle/6.8.2/javaCompile/javaCompile.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/validation-start/.gradle/6.8.2/javaCompile/taskHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/validation-start/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/validation-start/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/validation-start/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/validation-start/.gradle/checksums/checksums.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/validation-start/.gradle/configuration-cache/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/validation-start/.gradle/vcs-1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/validation-start/HELP.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/validation-start/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/validation-start/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/validation-start/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/validation-start/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/validation-start/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/validation-start/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/validation-start/src/main/java/hello/itemservice/ItemServiceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/validation-start/src/main/java/hello/itemservice/TestDataInit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/validation-start/src/main/java/hello/itemservice/domain/item/Item.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/validation-start/src/main/java/hello/itemservice/domain/item/ItemRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/validation-start/src/main/java/hello/itemservice/web/validation/ValidationItemControllerV1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/validation-start/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/validation-start/src/main/resources/messages.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/validation-start/src/main/resources/messages_en.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/validation-start/src/main/resources/static/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/validation-start/src/main/resources/static/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/validation-start/src/main/resources/templates/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/validation-start/src/main/resources/templates/validation/v1/addForm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/validation-start/src/main/resources/templates/validation/v1/editForm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/validation-start/src/main/resources/templates/validation/v1/item.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/validation-start/src/main/resources/templates/validation/v1/items.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/validation-start/src/test/java/hello/itemservice/ItemServiceApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/validation-start/src/test/java/hello/itemservice/domain/item/ItemRepositoryTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/validation-start/src/test/java/hello/itemservice/message/MessageSourceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/validation/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/validation/.gradle/6.8.2/executionHistory/executionHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/validation/.gradle/6.8.2/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/validation/.gradle/6.8.2/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/validation/.gradle/6.8.2/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/validation/.gradle/6.8.2/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/validation/.gradle/6.8.2/fileHashes/resourceHashesCache.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/validation/.gradle/6.8.2/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/validation/.gradle/6.8.2/javaCompile/classAnalysis.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/validation/.gradle/6.8.2/javaCompile/jarAnalysis.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/validation/.gradle/6.8.2/javaCompile/javaCompile.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/validation/.gradle/6.8.2/javaCompile/taskHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/validation/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/validation/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/validation/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/validation/.gradle/checksums/checksums.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/validation/.gradle/configuration-cache/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/validation/.gradle/vcs-1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/validation/HELP.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/validation/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/validation/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/validation/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/validation/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/validation/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/validation/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/validation/src/main/java/hello/itemservice/ItemServiceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/validation/src/main/java/hello/itemservice/TestDataInit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/validation/src/main/java/hello/itemservice/domain/item/Item.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/validation/src/main/java/hello/itemservice/domain/item/ItemRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/validation/src/main/java/hello/itemservice/domain/item/SaveCheck.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/validation/src/main/java/hello/itemservice/domain/item/UpdateCheck.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/validation/src/main/java/hello/itemservice/web/validation/ItemValidator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/validation/src/main/java/hello/itemservice/web/validation/ValidationItemApiController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/validation/src/main/java/hello/itemservice/web/validation/ValidationItemControllerV1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/validation/src/main/java/hello/itemservice/web/validation/ValidationItemControllerV2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/validation/src/main/java/hello/itemservice/web/validation/ValidationItemControllerV3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/validation/src/main/java/hello/itemservice/web/validation/ValidationItemControllerV4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/validation/src/main/java/hello/itemservice/web/validation/form/ItemSaveForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/validation/src/main/java/hello/itemservice/web/validation/form/ItemUpdateForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/validation/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/validation/src/main/resources/errors.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/validation/src/main/resources/messages.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/validation/src/main/resources/messages_en.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/validation/src/main/resources/static/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/validation/src/main/resources/static/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/validation/src/main/resources/templates/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/validation/src/main/resources/templates/validation/v1/addForm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/validation/src/main/resources/templates/validation/v1/editForm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/validation/src/main/resources/templates/validation/v1/item.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/validation/src/main/resources/templates/validation/v1/items.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/validation/src/main/resources/templates/validation/v2/addForm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/validation/src/main/resources/templates/validation/v2/editForm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/validation/src/main/resources/templates/validation/v2/item.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/validation/src/main/resources/templates/validation/v2/items.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/validation/src/main/resources/templates/validation/v3/addForm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/validation/src/main/resources/templates/validation/v3/editForm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/validation/src/main/resources/templates/validation/v3/item.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/validation/src/main/resources/templates/validation/v3/items.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/validation/src/main/resources/templates/validation/v4/addForm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/validation/src/main/resources/templates/validation/v4/editForm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/validation/src/main/resources/templates/validation/v4/item.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/validation/src/main/resources/templates/validation/v4/items.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/validation/src/test/java/hello/itemservice/ItemServiceApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/validation/src/test/java/hello/itemservice/domain/item/ItemRepositoryTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/validation/src/test/java/hello/itemservice/message/MessageSourceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/validation/src/test/java/hello/itemservice/validation/BeanValidationTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2/validation/src/test/java/hello/itemservice/validation/MessageCodesResolverTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2_pdf/0. 스프링 MVC 전체 목차 v2022-07-10.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2_pdf/1. 타임리프 - 기본 기능.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2_pdf/10. 스프링 타입 컨버터.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2_pdf/11. 파일 업로드.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2_pdf/12. 다음으로.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2_pdf/2. 타임리프 - 스프링 통합과 폼.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2_pdf/3. 메시지, 국제화.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2_pdf/4. 검증1 - Validation.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2_pdf/5. 검증2 - Bean Validation.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2_pdf/6. 로그인 처리1 - 쿠키, 세션.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2_pdf/7. 로그인 처리2 - 필터, 인터셉터.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2_pdf/8. 예외 처리와 오류 페이지.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_수업자료/mvc2_pdf/9. API 예외 처리.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../log/README.md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,6 +786,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2F1FwlL7EOhifj8YgBwyimaRQUP" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -83,12 +796,19 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/Hansol/Desktop/업무/홍민식/JAVA/MSA/ecommerce"
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/hongminsik/Desktop/programming/java/Algorithm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.NO2">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="퀵정렬" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="공부용.퀵정렬" />
       <module name="Algorithm" />
@@ -98,6 +818,13 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Algorithm" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -195,12 +922,20 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.PreOrder" />
         <item itemvalue="Application.test" />
         <item itemvalue="Application.퀵정렬" />
         <item itemvalue="Application.NO2" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-18.0.2-corretto-18.0.2-4caba194b151-68fdadd5" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
